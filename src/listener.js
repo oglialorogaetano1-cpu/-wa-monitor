@@ -1,1 +1,119 @@
-Ly8gd2EtbW9uaXRvciAvIGxpc3RlbmVyCi8vIFNpIGNvbGxlZ2EgYSBXaGF0c0FwcCBpbiBTT0xBIExFVFRVUkE6IG5vbiBpbnZpYSBtYWkgbWVzc2FnZ2kuCi8vIFNhbHZhIG9nbmkgbWVzc2FnZ2lvIHJpY2V2dXRvIHN1IFN1cGFiYXNlLiBFc3BvbmUgdW4gZW5kcG9pbnQgL3FyIHByb3RldHRvCi8vIGRhIGNoaWF2ZSBwZXIgc2NhbnNpb25hcmUgaWwgUVIgZGkgYWNjb3BwaWFtZW50byBsYSBwcmltYSB2b2x0YS4KCnJlcXVpcmUoJ2RvdGVudicpLmNvbmZpZygpOwpjb25zdCBleHByZXNzID0gcmVxdWlyZSgnZXhwcmVzcycpOwpjb25zdCBxcmNvZGUgPSByZXF1aXJlKCdxcmNvZGUnKTsKY29uc3QgeyBDbGllbnQsIExvY2FsQXV0aCB9ID0gcmVxdWlyZSgnd2hhdHNhcHAtd2ViLmpzJyk7CmNvbnN0IHsgY3JlYXRlQ2xpZW50IH0gPSByZXF1aXJlKCdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnKTsKCmNvbnN0IHsKICBTVVBBQkFTRV9VUkwsCiAgU1VQQUJBU0VfU0VSVklDRV9LRVksCiAgUVJfU0VDUkVULAogIFdBX0FDQ09VTlRfTEFCRUwgPSAncGVyc29uYWxlJywgLy8gJ3BlcnNvbmFsZScgbyAnbGF2b3JvJzogcXVhbGUgbnVtZXJvIMOoIHF1ZXN0byBsaXN0ZW5lcgogIFBPUlQgPSAzMDAwLAp9ID0gcHJvY2Vzcy5lbnY7CgppZiAoIVNVUEFCQVNFX1VSTCB8fCAhU1VQQUJBU0VfU0VSVklDRV9LRVkpIHsKICBjb25zb2xlLmVycm9yKCdNYW5jYW5vIFNVUEFCQVNFX1VSTCBvIFNVUEFCQVNFX1NFUlZJQ0VfS0VZIG5lbGxlIHZhcmlhYmlsaSBkXCdhbWJpZW50ZS4nKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KaWYgKCFRUl9TRUNSRVQpIHsKICBjb25zb2xlLmVycm9yKCdNYW5jYSBRUl9TRUNSRVQ6IGltcG9zdGEgdW5hIGNoaWF2ZSBzZWdyZXRhIHBlciBwcm90ZWdnZXJlIGxcJ2VuZHBvaW50IC9xci4nKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfU0VSVklDRV9LRVkpOwoKbGV0IGxhc3RRciA9IG51bGw7CmxldCByZWFkeSA9IGZhbHNlOwoKY29uc3QgY2xpZW50ID0gbmV3IENsaWVudCh7CiAgYXV0aFN0cmF0ZWd5OiBuZXcgTG9jYWxBdXRoKHsgZGF0YVBhdGg6IGAvZGF0YS93YS1zZXNzaW9uLSR7V0FfQUNDT1VOVF9MQUJFTH1gIH0pLAogIHB1cHBldGVlcjogewogICAgaGVhZGxlc3M6IHRydWUsCiAgICBhcmdzOiBbCiAgICAgICctLW5vLXNhbmRib3gnLAogICAgICAnLS1kaXNhYmxlLXNldHVpZC1zYW5kYm94JywKICAgICAgJy0tZGlzYWJsZS1kZXYtc2htLXVzYWdlJywKICAgIF0sCiAgfSwKfSk7CgpjbGllbnQub24oJ3FyJywgKHFyKSA9PiB7CiAgbGFzdFFyID0gcXI7CiAgcmVhZHkgPSBmYWxzZTsKICBjb25zb2xlLmxvZygnTnVvdm8gUVIgZ2VuZXJhdG8uIEFwcmlyZSAvcXI/az08UVJfU0VDUkVUPiBwZXIgc2NhbnNpb25hcmxvLicpOwp9KTsKCmNsaWVudC5vbigncmVhZHknLCAoKSA9PiB7CiAgcmVhZHkgPSB0cnVlOwogIGxhc3RRciA9IG51bGw7CiAgY29uc29sZS5sb2coYFdoYXRzQXBwICgke1dBX0FDQ09VTlRfTEFCRUx9KSBjb2xsZWdhdG8gZSBpbiBhc2NvbHRvIChzb2xhIGxldHR1cmEpLmApOwp9KTsKCmNsaWVudC5vbignZGlzY29ubmVjdGVkJywgKHJlYXNvbikgPT4gewogIHJlYWR5ID0gZmFsc2U7CiAgY29uc29sZS53YXJuKCdXaGF0c0FwcCBkaXNjb25uZXNzbzonLCByZWFzb24pOwp9KTsKCi8vIElNUE9SVEFOVEU6IG5lc3N1biBoYW5kbGVyIGludmlhIG1lc3NhZ2dpLiBJbCBjbGllbnQgcmVzdGEgZGkgc29sYSBsZXR0dXJhLgpjbGllbnQub24oJ21lc3NhZ2UnLCBhc3luYyAobXNnKSA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IGNoYXQgPSBhd2FpdCBtc2cuZ2V0Q2hhdCgpOwogICAgY29uc3QgY29udGFjdCA9IGF3YWl0IG1zZy5nZXRDb250YWN0KCk7CgogICAgY29uc3Qgcm93ID0gewogICAgICB3YV9hY2NvdW50OiBXQV9BQ0NPVU5UX0xBQkVMLAogICAgICB3YV9tZXNzYWdlX2lkOiBtc2cuaWQ/Ll9zZXJpYWxpemVkIHx8IG51bGwsCiAgICAgIGNoYXRfaWQ6IGNoYXQuaWQ/Ll9zZXJpYWxpemVkIHx8IG1zZy5mcm9tLAogICAgICBjaGF0X25hbWU6IGNoYXQubmFtZSB8fCBjb250YWN0LnB1c2huYW1lIHx8IGNvbnRhY3QubnVtYmVyIHx8IG51bGwsCiAgICAgIGlzX2dyb3VwOiAhIWNoYXQuaXNHcm91cCwKICAgICAgc2VuZGVyX25hbWU6IGNvbnRhY3QucHVzaG5hbWUgfHwgY29udGFjdC5uYW1lIHx8IGNvbnRhY3QubnVtYmVyIHx8IG51bGwsCiAgICAgIHNlbmRlcl9udW1iZXI6IGNvbnRhY3QubnVtYmVyIHx8IG51bGwsCiAgICAgIGRpcmVjdGlvbjogbXNnLmZyb21NZSA/ICdvdXQnIDogJ2luJywKICAgICAgYm9keTogbXNnLmJvZHkgfHwgbnVsbCwKICAgICAgbWVzc2FnZV90eXBlOiBtc2cudHlwZSB8fCAndGV4dCcsCiAgICAgIHdhX3RpbWVzdGFtcDogbmV3IERhdGUobXNnLnRpbWVzdGFtcCAqIDEwMDApLnRvSVNPU3RyaW5nKCksCiAgICB9OwoKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ21lc3NhZ2VzJykudXBzZXJ0KHJvdywgewogICAgICBvbkNvbmZsaWN0OiAnd2FfYWNjb3VudCx3YV9tZXNzYWdlX2lkJywKICAgIH0pOwogICAgaWYgKGVycm9yKSBjb25zb2xlLmVycm9yKCdFcnJvcmUgc2FsdmF0YWdnaW8gbWVzc2FnZ2lvOicsIGVycm9yLm1lc3NhZ2UpOwogIH0gY2F0Y2ggKGVycikgewogICAgY29uc29sZS5lcnJvcignRXJyb3JlIGVsYWJvcmF6aW9uZSBtZXNzYWdnaW86JywgZXJyLm1lc3NhZ2UpOwogIH0KfSk7CgpjbGllbnQuaW5pdGlhbGl6ZSgpOwoKLy8gLS0tIFNlcnZlciBIVFRQIG1pbmltYWxlOiBoZWFsdGhjaGVjayArIFFSIHByb3RldHRvIC0tLQpjb25zdCBhcHAgPSBleHByZXNzKCk7CgphcHAuZ2V0KCcvJywgKF9yZXEsIHJlcykgPT4gewogIHJlcy5qc29uKHsgYWNjb3VudDogV0FfQUNDT1VOVF9MQUJFTCwgc3RhdHVzOiByZWFkeSA/ICdjb25uZWN0ZWQnIDogJ3dhaXRpbmdfZm9yX3FyJyB9KTsKfSk7CgphcHAuZ2V0KCcvcXInLCBhc3luYyAocmVxLCByZXMpID0+IHsKICBpZiAocmVxLnF1ZXJ5LmsgIT09IFFSX1NFQ1JFVCkgewogICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAzKS5zZW5kKCdOb24gYXV0b3JpenphdG8uJyk7CiAgfQogIGlmIChyZWFkeSkgewogICAgcmV0dXJuIHJlcy5zZW5kKCdXaGF0c0FwcCDDqCBnacOgIGNvbGxlZ2F0by4gTmVzc3VuIFFSIGRhIG1vc3RyYXJlLicpOwogIH0KICBpZiAoIWxhc3RRcikgewogICAgcmV0dXJuIHJlcy5zZW5kKCdRUiBub24gYW5jb3JhIGdlbmVyYXRvLCByaXByb3ZhIHRyYSBxdWFsY2hlIHNlY29uZG8uJyk7CiAgfQogIGNvbnN0IGRhdGFVcmwgPSBhd2FpdCBxcmNvZGUudG9EYXRhVVJMKGxhc3RRcik7CiAgcmVzLnNlbmQoYDxodG1sPjxib2R5IHN0eWxlPSJkaXNwbGF5OmZsZXg7YWxpZ24taXRlbXM6Y2VudGVyO2p1c3RpZnktY29udGVudDpjZW50ZXI7aGVpZ2h0OjEwMHZoO21hcmdpbjowO2JhY2tncm91bmQ6IzExMSI+CiAgICA8aW1nIHNyYz0iJHtkYXRhVXJsfSIgc3R5bGU9IndpZHRoOjMyMHB4O2hlaWdodDozMjBweCIgLz4KICA8L2JvZHk+PC9odG1sPmApOwp9KTsKCmFwcC5saXN0ZW4oUE9SVCwgKCkgPT4gewogIGNvbnNvbGUubG9nKGBMaXN0ZW5lciBIVFRQIHN1IHBvcnRhICR7UE9SVH1gKTsKfSk7Cg==
+// wa-monitor / listener
+// Si collega a WhatsApp in SOLA LETTURA: non invia mai messaggi.
+// Salva ogni messaggio ricevuto su Supabase. Espone un endpoint /qr protetto
+// da chiave per scansionare il QR di accoppiamento la prima volta.
+
+require('dotenv').config();
+const express = require('express');
+const qrcode = require('qrcode');
+const { Client, LocalAuth } = require('whatsapp-web.js');
+const { createClient } = require('@supabase/supabase-js');
+
+const {
+  SUPABASE_URL,
+  SUPABASE_SERVICE_KEY,
+  QR_SECRET,
+  WA_ACCOUNT_LABEL = 'personale', // 'personale' o 'lavoro': quale numero è questo listener
+  PORT = 3000,
+} = process.env;
+
+if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
+  console.error('Mancano SUPABASE_URL o SUPABASE_SERVICE_KEY nelle variabili d\'ambiente.');
+  process.exit(1);
+}
+if (!QR_SECRET) {
+  console.error('Manca QR_SECRET: imposta una chiave segreta per proteggere l\'endpoint /qr.');
+  process.exit(1);
+}
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
+
+let lastQr = null;
+let ready = false;
+
+const client = new Client({
+  authStrategy: new LocalAuth({ dataPath: `/data/wa-session-${WA_ACCOUNT_LABEL}` }),
+  puppeteer: {
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+    ],
+  },
+});
+
+client.on('qr', (qr) => {
+  lastQr = qr;
+  ready = false;
+  console.log('Nuovo QR generato. Aprire /qr?k=<QR_SECRET> per scansionarlo.');
+});
+
+client.on('ready', () => {
+  ready = true;
+  lastQr = null;
+  console.log(`WhatsApp (${WA_ACCOUNT_LABEL}) collegato e in ascolto (sola lettura).`);
+});
+
+client.on('disconnected', (reason) => {
+  ready = false;
+  console.warn('WhatsApp disconnesso:', reason);
+});
+
+// IMPORTANTE: nessun handler invia messaggi. Il client resta di sola lettura.
+client.on('message', async (msg) => {
+  try {
+    const chat = await msg.getChat();
+    const contact = await msg.getContact();
+
+    const row = {
+      wa_account: WA_ACCOUNT_LABEL,
+      wa_message_id: msg.id?._serialized || null,
+      chat_id: chat.id?._serialized || msg.from,
+      chat_name: chat.name || contact.pushname || contact.number || null,
+      is_group: !!chat.isGroup,
+      sender_name: contact.pushname || contact.name || contact.number || null,
+      sender_number: contact.number || null,
+      direction: msg.fromMe ? 'out' : 'in',
+      body: msg.body || null,
+      message_type: msg.type || 'text',
+      wa_timestamp: new Date(msg.timestamp * 1000).toISOString(),
+    };
+
+    const { error } = await supabase.from('messages').upsert(row, {
+      onConflict: 'wa_account,wa_message_id',
+    });
+    if (error) console.error('Errore salvataggio messaggio:', error.message);
+  } catch (err) {
+    console.error('Errore elaborazione messaggio:', err.message);
+  }
+});
+
+client.initialize();
+
+// --- Server HTTP minimale: healthcheck + QR protetto ---
+const app = express();
+
+app.get('/', (_req, res) => {
+  res.json({ account: WA_ACCOUNT_LABEL, status: ready ? 'connected' : 'waiting_for_qr' });
+});
+
+app.get('/qr', async (req, res) => {
+  if (req.query.k !== QR_SECRET) {
+    return res.status(403).send('Non autorizzato.');
+  }
+  if (ready) {
+    return res.send('WhatsApp è già collegato. Nessun QR da mostrare.');
+  }
+  if (!lastQr) {
+    return res.send('QR non ancora generato, riprova tra qualche secondo.');
+  }
+  const dataUrl = await qrcode.toDataURL(lastQr);
+  res.send(`<html><body style="display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#111">
+    <img src="${dataUrl}" style="width:320px;height:320px" />
+  </body></html>`);
+});
+
+app.listen(PORT, () => {
+  console.log(`Listener HTTP su porta ${PORT}`);
+});
