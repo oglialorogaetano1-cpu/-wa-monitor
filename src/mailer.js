@@ -1,1 +1,43 @@
-Ly8gSW52aW8gZW1haWwgcmVhbGUsIHVzYXRvIFNPTE8gZG9wbyBjaGUgdW5hIGJvenphIMOoIHN0YXRhIGFwcHJvdmF0YSBkYQovLyBHYWV0YW5vLiBOZXNzdW4gYWx0cm8gcHVudG8gZGVsIGNvZGljZSBkZXZlIGNoaWFtYXJlIHNlbmRNYWlsLgpjb25zdCBub2RlbWFpbGVyID0gcmVxdWlyZSgnbm9kZW1haWxlcicpOwoKY29uc3QgewogIFNNVFBfSE9TVCwKICBTTVRQX1BPUlQgPSA0NjUsCiAgU01UUF9TRUNVUkUgPSAndHJ1ZScsCiAgU01UUF9VU0VSLAogIFNNVFBfUEFTUywKICBFTUFJTF9GUk9NLAp9ID0gcHJvY2Vzcy5lbnY7CgpsZXQgdHJhbnNwb3J0ZXIgPSBudWxsOwoKZnVuY3Rpb24gZ2V0VHJhbnNwb3J0ZXIoKSB7CiAgaWYgKCFTTVRQX0hPU1QgfHwgIVNNVFBfVVNFUiB8fCAhU01UUF9QQVNTKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICdTTVRQIG5vbiBjb25maWd1cmF0bzogbWFuY2FubyBTTVRQX0hPU1QsIFNNVFBfVVNFUiBvIFNNVFBfUEFTUyBuZWxsZSB2YXJpYWJpbGkgZFwnYW1iaWVudGUuJwogICAgKTsKICB9CiAgaWYgKCF0cmFuc3BvcnRlcikgewogICAgdHJhbnNwb3J0ZXIgPSBub2RlbWFpbGVyLmNyZWF0ZVRyYW5zcG9ydCh7CiAgICAgIGhvc3Q6IFNNVFBfSE9TVCwKICAgICAgcG9ydDogTnVtYmVyKFNNVFBfUE9SVCksCiAgICAgIHNlY3VyZTogU01UUF9TRUNVUkUgPT09ICd0cnVlJywKICAgICAgYXV0aDogeyB1c2VyOiBTTVRQX1VTRVIsIHBhc3M6IFNNVFBfUEFTUyB9LAogICAgfSk7CiAgfQogIHJldHVybiB0cmFuc3BvcnRlcjsKfQoKYXN5bmMgZnVuY3Rpb24gc2VuZE1haWwoeyB0bywgc3ViamVjdCwgYm9keSB9KSB7CiAgY29uc3QgdCA9IGdldFRyYW5zcG9ydGVyKCk7CiAgYXdhaXQgdC5zZW5kTWFpbCh7CiAgICBmcm9tOiBFTUFJTF9GUk9NIHx8IFNNVFBfVVNFUiwKICAgIHRvLAogICAgc3ViamVjdCwKICAgIHRleHQ6IGJvZHksCiAgfSk7Cn0KCm1vZHVsZS5leHBvcnRzID0geyBzZW5kTWFpbCB9Owo=
+// Invio email reale, usato SOLO dopo che una bozza è stata approvata da
+// Gaetano. Nessun altro punto del codice deve chiamare sendMail.
+const nodemailer = require('nodemailer');
+
+const {
+  SMTP_HOST,
+  SMTP_PORT = 465,
+  SMTP_SECURE = 'true',
+  SMTP_USER,
+  SMTP_PASS,
+  EMAIL_FROM,
+} = process.env;
+
+let transporter = null;
+
+function getTransporter() {
+  if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS) {
+    throw new Error(
+      'SMTP non configurato: mancano SMTP_HOST, SMTP_USER o SMTP_PASS nelle variabili d\'ambiente.'
+    );
+  }
+  if (!transporter) {
+    transporter = nodemailer.createTransport({
+      host: SMTP_HOST,
+      port: Number(SMTP_PORT),
+      secure: SMTP_SECURE === 'true',
+      auth: { user: SMTP_USER, pass: SMTP_PASS },
+    });
+  }
+  return transporter;
+}
+
+async function sendMail({ to, subject, body }) {
+  const t = getTransporter();
+  await t.sendMail({
+    from: EMAIL_FROM || SMTP_USER,
+    to,
+    subject,
+    text: body,
+  });
+}
+
+module.exports = { sendMail };
