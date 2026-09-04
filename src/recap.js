@@ -1,1 +1,111 @@
-Ly8gd2EtbW9uaXRvciAvIHJlY2FwCi8vIFNjcmlwdCBwZW5zYXRvIHBlciBnaXJhcmUgc3UgdW5vIHNjaGVkdWxlIFJhaWx3YXkgKGVzLiBvZ25pIG1hdHRpbmEpLgovLyBQcmVuZGUgaSBtZXNzYWdnaSBkZWxsZSB1bHRpbWUgMjQgb3JlLCBjaGllZGUgYSBDbGF1ZGUgdW4gcmlhc3N1bnRvCi8vIHNpbnRldGljbyBjb24gbGUgcHJpb3JpdMOgLCBsbyBzYWx2YSBlIGxvIG1hbmRhIHN1IFRlbGVncmFtLgoKcmVxdWlyZSgnZG90ZW52JykuY29uZmlnKCk7CmNvbnN0IEFudGhyb3BpYyA9IHJlcXVpcmUoJ0BhbnRocm9waWMtYWkvc2RrJykuZGVmYXVsdDsKY29uc3QgeyBzdXBhYmFzZSwgbGlzdFJlbWluZGVycywgbGlzdExlZ2FsTWF0dGVycywgbGlzdFBlbmRpbmdBY3Rpb25zIH0gPSByZXF1aXJlKCcuL3F1ZXJpZXMnKTsKCmNvbnN0IHsKICBURUxFR1JBTV9CT1RfVE9LRU4sCiAgVEVMRUdSQU1fQ0hBVF9JRCwKICBBTlRIUk9QSUNfQVBJX0tFWSwKfSA9IHByb2Nlc3MuZW52OwoKY29uc3QgYW50aHJvcGljID0gbmV3IEFudGhyb3BpYyh7IGFwaUtleTogQU5USFJPUElDX0FQSV9LRVkgfSk7Cgphc3luYyBmdW5jdGlvbiBtYWluKCkgewogIGNvbnN0IHRvID0gbmV3IERhdGUoKTsKICBjb25zdCBmcm9tID0gbmV3IERhdGUodG8uZ2V0VGltZSgpIC0gMjQgKiA2MCAqIDYwICogMTAwMCk7CgogIGNvbnN0IHsgZGF0YTogbWVzc2FnZXMsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgLmZyb20oJ21lc3NhZ2VzJykKICAgIC5zZWxlY3QoJ3dhX2FjY291bnQsIGNoYXRfbmFtZSwgc2VuZGVyX25hbWUsIGJvZHksIGRpcmVjdGlvbiwgd2FfdGltZXN0YW1wJykKICAgIC5ndGUoJ3dhX3RpbWVzdGFtcCcsIGZyb20udG9JU09TdHJpbmcoKSkKICAgIC5sdGUoJ3dhX3RpbWVzdGFtcCcsIHRvLnRvSVNPU3RyaW5nKCkpCiAgICAub3JkZXIoJ3dhX3RpbWVzdGFtcCcsIHsgYXNjZW5kaW5nOiB0cnVlIH0pCiAgICAubGltaXQoMTAwMCk7CgogIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwoKICAvLyBTY2FkZW56ZSBnacOgIHBhc3NhdGUgKG5vbiBjb21wbGV0YXRlKSBlIHF1ZWxsZSBkZWkgcHJvc3NpbWkgMiBnaW9ybmksCiAgLy8gbGUgcHJhdGljaGUgbGVnYWxpIGNvbiBzY2FkZW56YSB2aWNpbmEsIGUgbGUgYm96emUgZW1haWwgYW5jb3JhIGluCiAgLy8gYXR0ZXNhIGRpIGNvbmZlcm1hOiBjb3PDrCBpbCByZWNhcCBhcHJlIGNvbiBsJ2FnZW5kYSBjb21wbGV0YSBhbmNoZSBzZQogIC8vIGllcmkgbm9uIMOoIGFycml2YXRvIG5lc3N1biBtZXNzYWdnaW8uCiAgY29uc3Qgb3JpenpvbnRlID0gbmV3IERhdGUodG8uZ2V0VGltZSgpICsgMiAqIDI0ICogNjAgKiA2MCAqIDEwMDApOwogIGNvbnN0IFtzY2FkZW56ZSwgcHJhdGljaGUsIGJvenplXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgIGxpc3RSZW1pbmRlcnMoeyBzdGF0dXM6ICdwZW5kaW5nJywgdG86IG9yaXp6b250ZS50b0lTT1N0cmluZygpIH0pLAogICAgbGlzdExlZ2FsTWF0dGVycyh7IHN0YXRvOiAnYXBlcnRhJyB9KSwKICAgIGxpc3RQZW5kaW5nQWN0aW9ucyh7IHN0YXR1czogJ2RyYWZ0JyB9KSwKICBdKTsKICBjb25zdCBwcmF0aWNoZVByZXN0byA9IHByYXRpY2hlLmZpbHRlcigocCkgPT4gcC5zY2FkZW56YSAmJiBuZXcgRGF0ZShwLnNjYWRlbnphKSA8PSBvcml6em9udGUpOwoKICBpZiAoKCFtZXNzYWdlcyB8fCBtZXNzYWdlcy5sZW5ndGggPT09IDApICYmIHNjYWRlbnplLmxlbmd0aCA9PT0gMCAmJiBwcmF0aWNoZVByZXN0by5sZW5ndGggPT09IDAgJiYgYm96emUubGVuZ3RoID09PSAwKSB7CiAgICBjb25zb2xlLmxvZygnTmllbnRlIGRhIHNlZ25hbGFyZSwgcmVjYXAgbm9uIGludmlhdG8uJyk7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCB0cmFzY3JpemlvbmUgPSAobWVzc2FnZXMgfHwgW10pCiAgICAubWFwKChtKSA9PiBgWyR7bS53YV90aW1lc3RhbXB9XSAoJHttLndhX2FjY291bnR9KSAke20uY2hhdF9uYW1lIHx8IG0uc2VuZGVyX25hbWV9OiAke20uYm9keSB8fCAnJ31gKQogICAgLmpvaW4oJ1xuJykgfHwgJyhuZXNzdW4gbWVzc2FnZ2lvIFdoYXRzQXBwIG5lbGxlIHVsdGltZSAyNCBvcmUpJzsKCiAgY29uc3QgZWxlbmNvU2NhZGVuemUgPSBzY2FkZW56ZS5sZW5ndGgKICAgID8gc2NhZGVuemUKICAgICAgICAubWFwKChyKSA9PiBgLSBbJHtyLmNhdGVnb3J5fV0gJHtyLnRpdGxlfSR7ci5jb3VudGVycGFydCA/IGAgKCR7ci5jb3VudGVycGFydH0pYCA6ICcnfSR7ci5kdWVfYXQgPyBgIOKAlCBzY2FkZTogJHtyLmR1ZV9hdH1gIDogJyd9IFtwcmlvcml0w6A6ICR7ci5wcmlvcml0eX1dYCkKICAgICAgICAuam9pbignXG4nKQogICAgOiAnKG5lc3N1bmEgc2NhZGVuemEgcGVuZGVudGUgbmVpIHByb3NzaW1pIGdpb3JuaSknOwoKICBjb25zdCBlbGVuY29MZWdhbGUgPSBwcmF0aWNoZVByZXN0by5sZW5ndGgKICAgID8gcHJhdGljaGVQcmVzdG8ubWFwKChwKSA9PiBgLSAke3AudGl0bGV9ICgke3AudGlwb30ke3AuY29udHJvcGFydGUgPyBgLCAke3AuY29udHJvcGFydGV9YCA6ICcnfSkg4oCUIHNjYWRlOiAke3Auc2NhZGVuemF9YCkuam9pbignXG4nKQogICAgOiAnKG5lc3N1bmEgcHJhdGljYSBsZWdhbGUgY29uIHNjYWRlbnphIHZpY2luYSknOwoKICBjb25zdCBlbGVuY29Cb3p6ZSA9IGJvenplLmxlbmd0aAogICAgPyBib3p6ZS5tYXAoKGIpID0+IGAtIGEgJHtiLnBheWxvYWQudG99LCBvZ2dldHRvICIke2IucGF5bG9hZC5zdWJqZWN0fSIsIGluIGF0dGVzYSBkYWwgJHtiLmNyZWF0ZWRfYXR9YCkuam9pbignXG4nKQogICAgOiAnKG5lc3N1bmEgYm96emEgZW1haWwgaW4gYXR0ZXNhKSc7CgogIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYW50aHJvcGljLm1lc3NhZ2VzLmNyZWF0ZSh7CiAgICBtb2RlbDogJ2NsYXVkZS1zb25uZXQtNC01JywKICAgIG1heF90b2tlbnM6IDEyMDAsCiAgICBzeXN0ZW06CiAgICAgICdTY3JpdmkgaW4gaXRhbGlhbm8sIHByb3NhIG5hdHVyYWxlIHNlbnphIGVsZW5jaGkgcHVudGF0aSBuw6kgdGl0b2xpLCBjb21lIHVuICcgKwogICAgICAnYXNzaXN0ZW50ZSBwZXJzb25hbGUgY2hlIGZhIGlsIHB1bnRvIGRlbGxhIHNpdHVhemlvbmUgYSB2b2NlIGEgR2FldGFuby4gJyArCiAgICAgICdBcHJpIGNvbiBsZSBzY2FkZW56ZSBlIGxlIHByYXRpY2hlIGxlZ2FsaSBpbW1pbmVudGkgbyBzY2FkdXRlLCBzZSBjZSBuZSBzb25vLCBwb2kgbGUgJyArCiAgICAgICdib3p6ZSBlbWFpbCBhbmNvcmEgZGEgYXBwcm92YXJlLCBwb2kgaSBtZXNzYWdnaSBXaGF0c0FwcCAoc3BlY2lmaWNhIHNlIHBlcnNvbmFsZSBvIGxhdm9ybyAnICsKICAgICAgJ3NvbG8gcXVhbmRvIMOoIHJpbGV2YW50ZSkuIEV2aWRlbnppYSBjb3NhIHJpY2hpZWRlIHVuYSByaXNwb3N0YSwgY29zYSDDqCB1cmdlbnRlIGUgY29zYSDDqCAnICsKICAgICAgJ3NvbG8gaW5mb3JtYXRpdm8uJywKICAgIG1lc3NhZ2VzOiBbCiAgICAgIHsKICAgICAgICByb2xlOiAndXNlcicsCiAgICAgICAgY29udGVudDogYFNjYWRlbnplIHBlbmRlbnRpIChvZ2dpIGUgcHJvc3NpbWkgMiBnaW9ybmkpOlxuJHtlbGVuY29TY2FkZW56ZX1cblxuUHJhdGljaGUgbGVnYWxpIGNvbiBzY2FkZW56YSB2aWNpbmE6XG4ke2VsZW5jb0xlZ2FsZX1cblxuQm96emUgZW1haWwgaW4gYXR0ZXNhIGRpIGNvbmZlcm1hOlxuJHtlbGVuY29Cb3p6ZX1cblxuTWVzc2FnZ2kgV2hhdHNBcHAgZGVsbGUgdWx0aW1lIDI0IG9yZTpcbiR7dHJhc2NyaXppb25lfVxuXG5GYW1taSB1biByZWNhcCBicmV2ZSBlIHV0aWxlLmAsCiAgICAgIH0sCiAgICBdLAogIH0pOwoKICBjb25zdCBzdW1tYXJ5ID0gcmVzcG9uc2UuY29udGVudAogICAgLmZpbHRlcigoYikgPT4gYi50eXBlID09PSAndGV4dCcpCiAgICAubWFwKChiKSA9PiBiLnRleHQpCiAgICAuam9pbignXG4nKTsKCiAgYXdhaXQgc3VwYWJhc2UuZnJvbSgncmVjYXBzJykuaW5zZXJ0KHsKICAgIHBlcmlvZF9zdGFydDogZnJvbS50b0lTT1N0cmluZygpLAogICAgcGVyaW9kX2VuZDogdG8udG9JU09TdHJpbmcoKSwKICAgIHN1bW1hcnksCiAgfSk7CgogIGF3YWl0IGZldGNoKGBodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90JHtURUxFR1JBTV9CT1RfVE9LRU59L3NlbmRNZXNzYWdlYCwgewogICAgbWV0aG9kOiAnUE9TVCcsCiAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsKICAgICAgY2hhdF9pZDogVEVMRUdSQU1fQ0hBVF9JRCwKICAgICAgdGV4dDogc3VtbWFyeSwKICAgIH0pLAogIH0pOwoKICBjb25zb2xlLmxvZygnUmVjYXAgaW52aWF0by4nKTsKfQoKbWFpbigpLmNhdGNoKChlcnIpID0+IHsKICBjb25zb2xlLmVycm9yKCdFcnJvcmUgcmVjYXA6JywgZXJyKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0pOwo=
+// wa-monitor / recap
+// Script pensato per girare su uno schedule Railway (es. ogni mattina).
+// Prende i messaggi delle ultime 24 ore, chiede a Claude un riassunto
+// sintetico con le priorità, lo salva e lo manda su Telegram.
+
+require('dotenv').config();
+const Anthropic = require('@anthropic-ai/sdk').default;
+const { supabase, listReminders, listLegalMatters, listPendingActions } = require('./queries');
+
+const {
+  TELEGRAM_BOT_TOKEN,
+  TELEGRAM_CHAT_ID,
+  ANTHROPIC_API_KEY,
+} = process.env;
+
+const anthropic = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
+
+async function main() {
+  const to = new Date();
+  const from = new Date(to.getTime() - 24 * 60 * 60 * 1000);
+
+  const { data: messages, error } = await supabase
+    .from('messages')
+    .select('wa_account, chat_name, sender_name, body, direction, wa_timestamp')
+    .gte('wa_timestamp', from.toISOString())
+    .lte('wa_timestamp', to.toISOString())
+    .order('wa_timestamp', { ascending: true })
+    .limit(1000);
+
+  if (error) throw new Error(error.message);
+
+  // Scadenze già passate (non completate) e quelle dei prossimi 2 giorni,
+  // le pratiche legali con scadenza vicina, e le bozze email ancora in
+  // attesa di conferma: così il recap apre con l'agenda completa anche se
+  // ieri non è arrivato nessun messaggio.
+  const orizzonte = new Date(to.getTime() + 2 * 24 * 60 * 60 * 1000);
+  const [scadenze, pratiche, bozze] = await Promise.all([
+    listReminders({ status: 'pending', to: orizzonte.toISOString() }),
+    listLegalMatters({ stato: 'aperta' }),
+    listPendingActions({ status: 'draft' }),
+  ]);
+  const pratichePresto = pratiche.filter((p) => p.scadenza && new Date(p.scadenza) <= orizzonte);
+
+  if ((!messages || messages.length === 0) && scadenze.length === 0 && pratichePresto.length === 0 && bozze.length === 0) {
+    console.log('Niente da segnalare, recap non inviato.');
+    return;
+  }
+
+  const trascrizione = (messages || [])
+    .map((m) => `[${m.wa_timestamp}] (${m.wa_account}) ${m.chat_name || m.sender_name}: ${m.body || ''}`)
+    .join('\n') || '(nessun messaggio WhatsApp nelle ultime 24 ore)';
+
+  const elencoScadenze = scadenze.length
+    ? scadenze
+        .map((r) => `- [${r.category}] ${r.title}${r.counterpart ? ` (${r.counterpart})` : ''}${r.due_at ? ` — scade: ${r.due_at}` : ''} [priorità: ${r.priority}]`)
+        .join('\n')
+    : '(nessuna scadenza pendente nei prossimi giorni)';
+
+  const elencoLegale = pratichePresto.length
+    ? pratichePresto.map((p) => `- ${p.title} (${p.tipo}${p.controparte ? `, ${p.controparte}` : ''}) — scade: ${p.scadenza}`).join('\n')
+    : '(nessuna pratica legale con scadenza vicina)';
+
+  const elencoBozze = bozze.length
+    ? bozze.map((b) => `- a ${b.payload.to}, oggetto "${b.payload.subject}", in attesa dal ${b.created_at}`).join('\n')
+    : '(nessuna bozza email in attesa)';
+
+  const response = await anthropic.messages.create({
+    model: 'claude-sonnet-4-5',
+    max_tokens: 1200,
+    system:
+      'Scrivi in italiano, prosa naturale senza elenchi puntati né titoli, come un ' +
+      'assistente personale che fa il punto della situazione a voce a Gaetano. ' +
+      'Apri con le scadenze e le pratiche legali imminenti o scadute, se ce ne sono, poi le ' +
+      'bozze email ancora da approvare, poi i messaggi WhatsApp (specifica se personale o lavoro ' +
+      'solo quando è rilevante). Evidenzia cosa richiede una risposta, cosa è urgente e cosa è ' +
+      'solo informativo.',
+    messages: [
+      {
+        role: 'user',
+        content: `Scadenze pendenti (oggi e prossimi 2 giorni):\n${elencoScadenze}\n\nPratiche legali con scadenza vicina:\n${elencoLegale}\n\nBozze email in attesa di conferma:\n${elencoBozze}\n\nMessaggi WhatsApp delle ultime 24 ore:\n${trascrizione}\n\nFammi un recap breve e utile.`,
+      },
+    ],
+  });
+
+  const summary = response.content
+    .filter((b) => b.type === 'text')
+    .map((b) => b.text)
+    .join('\n');
+
+  await supabase.from('recaps').insert({
+    period_start: from.toISOString(),
+    period_end: to.toISOString(),
+    summary,
+  });
+
+  await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      chat_id: TELEGRAM_CHAT_ID,
+      text: summary,
+    }),
+  });
+
+  console.log('Recap inviato.');
+}
+
+main().catch((err) => {
+  console.error('Errore recap:', err);
+  process.exit(1);
+});
