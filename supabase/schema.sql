@@ -1,1 +1,116 @@
-LS0gd2EtbW9uaXRvciBzY2hlbWEKLS0gRXNlZ3VpIHF1ZXN0byBmaWxlIG5lbGwnU1FMIGVkaXRvciBkaSBTdXBhYmFzZSAocHJvZ2V0dG8gZGVkaWNhdG8gYSB3YS1tb25pdG9yKQoKY3JlYXRlIHRhYmxlIGlmIG5vdCBleGlzdHMgbWVzc2FnZXMgKAogIGlkIGJpZ3NlcmlhbCBwcmltYXJ5IGtleSwKICB3YV9hY2NvdW50IHRleHQgbm90IG51bGwgZGVmYXVsdCAncGVyc29uYWxlJywgLS0gJ3BlcnNvbmFsZScgbyAnbGF2b3JvJzogcXVhbGUgZGVpIGR1ZSBudW1lcmkgV2hhdHNBcHAKICB3YV9tZXNzYWdlX2lkIHRleHQsCiAgY2hhdF9pZCB0ZXh0IG5vdCBudWxsLAogIGNoYXRfbmFtZSB0ZXh0LAogIGlzX2dyb3VwIGJvb2xlYW4gbm90IG51bGwgZGVmYXVsdCBmYWxzZSwKICBzZW5kZXJfbmFtZSB0ZXh0LAogIHNlbmRlcl9udW1iZXIgdGV4dCwKICBkaXJlY3Rpb24gdGV4dCBub3QgbnVsbCBkZWZhdWx0ICdpbicsIC0tICdpbicgPSByaWNldnV0bywgJ291dCcgPSBpbnZpYXRvIGRhIHRlIChwZXIgY29udGVzdG8sIG1haSBnZW5lcmF0byBkYWwgYm90KQogIGJvZHkgdGV4dCwKICBtZXNzYWdlX3R5cGUgdGV4dCBkZWZhdWx0ICd0ZXh0JywgLS0gdGV4dCwgaW1hZ2UsIGF1ZGlvLCB2aWRlbywgZG9jdW1lbnQsIG90aGVyCiAgcHJpb3JpdHkgdGV4dCwgLS0gYXNzZWduYXRhIGRhbCByZWNhcC9ib3Q6ICdhbHRhJywgJ25vcm1hbGUnLCAnYmFzc2EnCiAgd2FfdGltZXN0YW1wIHRpbWVzdGFtcHR6IG5vdCBudWxsLAogIGNyZWF0ZWRfYXQgdGltZXN0YW1wdHogbm90IG51bGwgZGVmYXVsdCBub3coKSwKICB1bmlxdWUgKHdhX2FjY291bnQsIHdhX21lc3NhZ2VfaWQpCik7CgpjcmVhdGUgaW5kZXggaWYgbm90IGV4aXN0cyBpZHhfbWVzc2FnZXNfd2FfdGltZXN0YW1wIG9uIG1lc3NhZ2VzICh3YV90aW1lc3RhbXAgZGVzYyk7CmNyZWF0ZSBpbmRleCBpZiBub3QgZXhpc3RzIGlkeF9tZXNzYWdlc19jaGF0X2lkIG9uIG1lc3NhZ2VzIChjaGF0X2lkKTsKY3JlYXRlIGluZGV4IGlmIG5vdCBleGlzdHMgaWR4X21lc3NhZ2VzX3NlbmRlcl9uYW1lIG9uIG1lc3NhZ2VzIChzZW5kZXJfbmFtZSk7CmNyZWF0ZSBpbmRleCBpZiBub3QgZXhpc3RzIGlkeF9tZXNzYWdlc193YV9hY2NvdW50IG9uIG1lc3NhZ2VzICh3YV9hY2NvdW50KTsKCi0tIGxvZyBkZWkgcmVjYXAgbWF0dHV0aW5pIGdlbmVyYXRpLCB1dGlsZSBwZXIgbm9uIGR1cGxpY2FyZSBpbnZpaQpjcmVhdGUgdGFibGUgaWYgbm90IGV4aXN0cyByZWNhcHMgKAogIGlkIGJpZ3NlcmlhbCBwcmltYXJ5IGtleSwKICBwZXJpb2Rfc3RhcnQgdGltZXN0YW1wdHogbm90IG51bGwsCiAgcGVyaW9kX2VuZCB0aW1lc3RhbXB0eiBub3QgbnVsbCwKICBzdW1tYXJ5IHRleHQgbm90IG51bGwsCiAgc2VudF9hdCB0aW1lc3RhbXB0eiBub3QgbnVsbCBkZWZhdWx0IG5vdygpCik7CgotLSBwcm9tZW1vcmlhIGUgc2NhZGVuemU6IGFnZW5kYSBwZXJzb25hbGUsIGFsaW1lbnRhdGEgZGFsIGJvdCBUZWxlZ3JhbQotLSBlIGNvbnN1bHRhYmlsZS9nZXN0aWJpbGUgYW5jaGUgZGFsbGEgcGFnaW5hIHdlYiBkZWxsJ2FnZW5kYS4KY3JlYXRlIHRhYmxlIGlmIG5vdCBleGlzdHMgcmVtaW5kZXJzICgKICBpZCBiaWdzZXJpYWwgcHJpbWFyeSBrZXksCiAgdGl0bGUgdGV4dCBub3QgbnVsbCwKICBub3RlcyB0ZXh0LAogIGR1ZV9hdCB0aW1lc3RhbXB0eiwKICBwcmlvcml0eSB0ZXh0IGRlZmF1bHQgJ25vcm1hbGUnLCAtLSAnYWx0YScsICdub3JtYWxlJywgJ2Jhc3NhJwogIHN0YXR1cyB0ZXh0IG5vdCBudWxsIGRlZmF1bHQgJ3BlbmRpbmcnLCAtLSAncGVuZGluZycsICdkb25lJwogIHNvdXJjZSB0ZXh0IGRlZmF1bHQgJ3RlbGVncmFtJywgLS0gJ3RlbGVncmFtJywgJ3dlYicsICdtYW51YWwnCiAgY2F0ZWdvcnkgdGV4dCBub3QgbnVsbCBkZWZhdWx0ICdnZW5lcmljbycsIC0tICdnZW5lcmljbycsICdwYWdhbWVudG8nLCAndmlhZ2dpbycsICdsZWdhbGUnCiAgY291bnRlcnBhcnQgdGV4dCwgLS0gYSBjaGkgc2kgcmlmZXJpc2NlOiBlcy4gIm11cmF0b3JlIEZyYW5jbyIsICJhdnZvY2F0byBSb3NzaSIKICBhbW91bnQgbnVtZXJpYywgLS0gaW1wb3J0bywgc29sbyBwZXIgaSBwYWdhbWVudGksIG9wemlvbmFsZQogIGNyZWF0ZWRfYXQgdGltZXN0YW1wdHogbm90IG51bGwgZGVmYXVsdCBub3coKSwKICBjb21wbGV0ZWRfYXQgdGltZXN0YW1wdHoKKTsKCmNyZWF0ZSBpbmRleCBpZiBub3QgZXhpc3RzIGlkeF9yZW1pbmRlcnNfZHVlX2F0IG9uIHJlbWluZGVycyAoZHVlX2F0KTsKY3JlYXRlIGluZGV4IGlmIG5vdCBleGlzdHMgaWR4X3JlbWluZGVyc19zdGF0dXMgb24gcmVtaW5kZXJzIChzdGF0dXMpOwpjcmVhdGUgaW5kZXggaWYgbm90IGV4aXN0cyBpZHhfcmVtaW5kZXJzX2NhdGVnb3J5IG9uIHJlbWluZGVycyAoY2F0ZWdvcnkpOwoKLS0gcHJhdGljaGUgbGVnYWxpIGUgYW1taW5pc3RyYXRpdmU6IHJpY29yc2ksIGNvbnRlc3RhemlvbmksIFBFQyBhdnZvY2F0by4KLS0gUmVzdGFubyB2aXNpYmlsaSBzb2xvIGFsIGJvdCAobWFpIGFsbGEgcGFnaW5hIHdlYiwgc29ubyBwacO5IGRlbGljYXRlKS4KY3JlYXRlIHRhYmxlIGlmIG5vdCBleGlzdHMgbGVnYWxfbWF0dGVycyAoCiAgaWQgYmlnc2VyaWFsIHByaW1hcnkga2V5LAogIHRpdGxlIHRleHQgbm90IG51bGwsCiAgdGlwbyB0ZXh0IG5vdCBudWxsIGRlZmF1bHQgJ2FsdHJvJywgLS0gJ3JpY29yc28nLCAnY29udGVzdGF6aW9uZScsICdwZWNfYXZ2b2NhdG8nLCAnYWx0cm8nCiAgY29udHJvcGFydGUgdGV4dCwgLS0gY2hpIMOoIGRhbGwnYWx0cmEgcGFydGU6IGVzLiAiQWdlbnppYSBFbnRyYXRlIiwgIkF2di4gQmlhbmNoaSIKICByaWZlcmltZW50byB0ZXh0LCAtLSBudW1lcm8gcHJhdGljYS9wcm90b2NvbGxvLCBzZSBjJ8OoCiAgc2NhZGVuemEgdGltZXN0YW1wdHosCiAgc3RhdG8gdGV4dCBub3QgbnVsbCBkZWZhdWx0ICdhcGVydGEnLCAtLSAnYXBlcnRhJywgJ2luX2NvcnNvJywgJ2NoaXVzYScKICBub3RlcyB0ZXh0LAogIGNyZWF0ZWRfYXQgdGltZXN0YW1wdHogbm90IG51bGwgZGVmYXVsdCBub3coKSwKICB1cGRhdGVkX2F0IHRpbWVzdGFtcHR6IG5vdCBudWxsIGRlZmF1bHQgbm93KCkKKTsKCmNyZWF0ZSBpbmRleCBpZiBub3QgZXhpc3RzIGlkeF9sZWdhbF9zY2FkZW56YSBvbiBsZWdhbF9tYXR0ZXJzIChzY2FkZW56YSk7CmNyZWF0ZSBpbmRleCBpZiBub3QgZXhpc3RzIGlkeF9sZWdhbF9zdGF0byBvbiBsZWdhbF9tYXR0ZXJzIChzdGF0byk7CmFsdGVyIHRhYmxlIGxlZ2FsX21hdHRlcnMgZW5hYmxlIHJvdyBsZXZlbCBzZWN1cml0eTsgLS0gbmVzc3VuYSBwb2xpY3kgYW5vbjogc29sbyBsYSBzZXJ2aWNlIGtleSBkZWwgYm90CgotLSBhemlvbmkgcHJvcG9zdGUgZGFsIGJvdCAoZW1haWwgZGEgbWFuZGFyZSwgc29sbGVjaXRpLCBlY2MuKTogaWwgYm90IGxlCi0tIHByZXBhcmEgc2VtcHJlIGNvbWUgYm96emEsIG5vbiBtYW5kYSBtYWkgbnVsbGEgc2VuemEgY29uZmVybWEgZXNwbGljaXRhLgpjcmVhdGUgdGFibGUgaWYgbm90IGV4aXN0cyBwZW5kaW5nX2FjdGlvbnMgKAogIGlkIGJpZ3NlcmlhbCBwcmltYXJ5IGtleSwKICB0eXBlIHRleHQgbm90IG51bGwgZGVmYXVsdCAnZW1haWwnLCAtLSBwZXIgb3JhICdlbWFpbCc7IGluIGZ1dHVybyBhbHRyaSB0aXBpCiAgc3RhdHVzIHRleHQgbm90IG51bGwgZGVmYXVsdCAnZHJhZnQnLCAtLSAnZHJhZnQnLCAnYXBwcm92ZWQnLCAnc2VudCcsICdyZWplY3RlZCcKICBwYXlsb2FkIGpzb25iIG5vdCBudWxsLCAtLSB7IHRvLCBzdWJqZWN0LCBib2R5IH0gcGVyIGxlIGVtYWlsCiAgY29udGV4dCB0ZXh0LCAtLSBwZXJjaMOpIGlsIGJvdCBwcm9wb25lIHF1ZXN0YSBhemlvbmUKICBjcmVhdGVkX2F0IHRpbWVzdGFtcHR6IG5vdCBudWxsIGRlZmF1bHQgbm93KCksCiAgc2VudF9hdCB0aW1lc3RhbXB0egopOwoKY3JlYXRlIGluZGV4IGlmIG5vdCBleGlzdHMgaWR4X3BlbmRpbmdfYWN0aW9uc19zdGF0dXMgb24gcGVuZGluZ19hY3Rpb25zIChzdGF0dXMpOwphbHRlciB0YWJsZSBwZW5kaW5nX2FjdGlvbnMgZW5hYmxlIHJvdyBsZXZlbCBzZWN1cml0eTsgLS0gbmVzc3VuYSBwb2xpY3kgYW5vbjogc29sbyBsYSBzZXJ2aWNlIGtleSBkZWwgYm90CgotLSBMYSBwYWdpbmEgd2ViIGRlbGwnYWdlbmRhIHNpIGNvbGxlZ2EgY29uIGxhIGNoaWF2ZSBwdWJibGljYSAoYW5vbiksIG5vbgotLSBjb24gbGEgc2VydmljZSBrZXkuIElsIGJvdCBlIGlsIGxpc3RlbmVyIHVzYW5vIHNlbXByZSBsYSBzZXJ2aWNlIGtleSwKLS0gY2hlIGFnZ2lyYSBjb211bnF1ZSBsYSBSTFM6IGxlIHBvbGljeSBxdWkgc290dG8gc2Vydm9ubyBzb2xvIGFsbGEgcGFnaW5hLgphbHRlciB0YWJsZSByZW1pbmRlcnMgZW5hYmxlIHJvdyBsZXZlbCBzZWN1cml0eTsKCmRyb3AgcG9saWN5IGlmIGV4aXN0cyAiYWdlbmRhIHdlYjogbGV0dHVyYSIgb24gcmVtaW5kZXJzOwpjcmVhdGUgcG9saWN5ICJhZ2VuZGEgd2ViOiBsZXR0dXJhIiBvbiByZW1pbmRlcnMKICBmb3Igc2VsZWN0IHVzaW5nICh0cnVlKTsKCmRyb3AgcG9saWN5IGlmIGV4aXN0cyAiYWdlbmRhIHdlYjogaW5zZXJpbWVudG8iIG9uIHJlbWluZGVyczsKY3JlYXRlIHBvbGljeSAiYWdlbmRhIHdlYjogaW5zZXJpbWVudG8iIG9uIHJlbWluZGVycwogIGZvciBpbnNlcnQgd2l0aCBjaGVjayAodHJ1ZSk7Cgpkcm9wIHBvbGljeSBpZiBleGlzdHMgImFnZW5kYSB3ZWI6IGFnZ2lvcm5hbWVudG8iIG9uIHJlbWluZGVyczsKY3JlYXRlIHBvbGljeSAiYWdlbmRhIHdlYjogYWdnaW9ybmFtZW50byIgb24gcmVtaW5kZXJzCiAgZm9yIHVwZGF0ZSB1c2luZyAodHJ1ZSk7Cgpkcm9wIHBvbGljeSBpZiBleGlzdHMgImFnZW5kYSB3ZWI6IGNhbmNlbGxhemlvbmUiIG9uIHJlbWluZGVyczsKY3JlYXRlIHBvbGljeSAiYWdlbmRhIHdlYjogY2FuY2VsbGF6aW9uZSIgb24gcmVtaW5kZXJzCiAgZm9yIGRlbGV0ZSB1c2luZyAodHJ1ZSk7CgotLSBMZSBhbHRyZSB0YWJlbGxlIHJlc3Rhbm8gY2hpdXNlIGFsbGEgY2hpYXZlIHB1YmJsaWNhOiBSTFMgYXR0aXZhIGUKLS0gbmVzc3VuYSBwb2xpY3kgcGVyIGFub24sIHF1aW5kaSBzb2xvIGxhIHNlcnZpY2Uga2V5IChib3QvbGlzdGVuZXIvcmVjYXApCi0tIHB1w7IgbGVnZ2VybGUgbyBzY3JpdmVybGUuCmFsdGVyIHRhYmxlIG1lc3NhZ2VzIGVuYWJsZSByb3cgbGV2ZWwgc2VjdXJpdHk7CmFsdGVyIHRhYmxlIHJlY2FwcyBlbmFibGUgcm93IGxldmVsIHNlY3VyaXR5Owo=
+-- wa-monitor schema
+-- Esegui questo file nell'SQL editor di Supabase (progetto dedicato a wa-monitor)
+
+create table if not exists messages (
+  id bigserial primary key,
+  wa_account text not null default 'personale', -- 'personale' o 'lavoro': quale dei due numeri WhatsApp
+  wa_message_id text,
+  chat_id text not null,
+  chat_name text,
+  is_group boolean not null default false,
+  sender_name text,
+  sender_number text,
+  direction text not null default 'in', -- 'in' = ricevuto, 'out' = inviato da te (per contesto, mai generato dal bot)
+  body text,
+  message_type text default 'text', -- text, image, audio, video, document, other
+  priority text, -- assegnata dal recap/bot: 'alta', 'normale', 'bassa'
+  wa_timestamp timestamptz not null,
+  created_at timestamptz not null default now(),
+  unique (wa_account, wa_message_id)
+);
+
+create index if not exists idx_messages_wa_timestamp on messages (wa_timestamp desc);
+create index if not exists idx_messages_chat_id on messages (chat_id);
+create index if not exists idx_messages_sender_name on messages (sender_name);
+create index if not exists idx_messages_wa_account on messages (wa_account);
+
+-- log dei recap mattutini generati, utile per non duplicare invii
+create table if not exists recaps (
+  id bigserial primary key,
+  period_start timestamptz not null,
+  period_end timestamptz not null,
+  summary text not null,
+  sent_at timestamptz not null default now()
+);
+
+-- promemoria e scadenze: agenda personale, alimentata dal bot Telegram
+-- e consultabile/gestibile anche dalla pagina web dell'agenda.
+create table if not exists reminders (
+  id bigserial primary key,
+  title text not null,
+  notes text,
+  due_at timestamptz,
+  priority text default 'normale', -- 'alta', 'normale', 'bassa'
+  status text not null default 'pending', -- 'pending', 'done'
+  source text default 'telegram', -- 'telegram', 'web', 'manual'
+  category text not null default 'generico', -- 'generico', 'pagamento', 'viaggio', 'legale'
+  counterpart text, -- a chi si riferisce: es. "muratore Franco", "avvocato Rossi"
+  amount numeric, -- importo, solo per i pagamenti, opzionale
+  created_at timestamptz not null default now(),
+  completed_at timestamptz
+);
+
+create index if not exists idx_reminders_due_at on reminders (due_at);
+create index if not exists idx_reminders_status on reminders (status);
+create index if not exists idx_reminders_category on reminders (category);
+
+-- pratiche legali e amministrative: ricorsi, contestazioni, PEC avvocato.
+-- Restano visibili solo al bot (mai alla pagina web, sono più delicate).
+create table if not exists legal_matters (
+  id bigserial primary key,
+  title text not null,
+  tipo text not null default 'altro', -- 'ricorso', 'contestazione', 'pec_avvocato', 'altro'
+  controparte text, -- chi è dall'altra parte: es. "Agenzia Entrate", "Avv. Bianchi"
+  riferimento text, -- numero pratica/protocollo, se c'è
+  scadenza timestamptz,
+  stato text not null default 'aperta', -- 'aperta', 'in_corso', 'chiusa'
+  notes text,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create index if not exists idx_legal_scadenza on legal_matters (scadenza);
+create index if not exists idx_legal_stato on legal_matters (stato);
+alter table legal_matters enable row level security; -- nessuna policy anon: solo la service key del bot
+
+-- azioni proposte dal bot (email da mandare, solleciti, ecc.): il bot le
+-- prepara sempre come bozza, non manda mai nulla senza conferma esplicita.
+create table if not exists pending_actions (
+  id bigserial primary key,
+  type text not null default 'email', -- per ora 'email'; in futuro altri tipi
+  status text not null default 'draft', -- 'draft', 'approved', 'sent', 'rejected'
+  payload jsonb not null, -- { to, subject, body } per le email
+  context text, -- perché il bot propone questa azione
+  created_at timestamptz not null default now(),
+  sent_at timestamptz
+);
+
+create index if not exists idx_pending_actions_status on pending_actions (status);
+alter table pending_actions enable row level security; -- nessuna policy anon: solo la service key del bot
+
+-- La pagina web dell'agenda si collega con la chiave pubblica (anon), non
+-- con la service key. Il bot e il listener usano sempre la service key,
+-- che aggira comunque la RLS: le policy qui sotto servono solo alla pagina.
+alter table reminders enable row level security;
+
+drop policy if exists "agenda web: lettura" on reminders;
+create policy "agenda web: lettura" on reminders
+  for select using (true);
+
+drop policy if exists "agenda web: inserimento" on reminders;
+create policy "agenda web: inserimento" on reminders
+  for insert with check (true);
+
+drop policy if exists "agenda web: aggiornamento" on reminders;
+create policy "agenda web: aggiornamento" on reminders
+  for update using (true);
+
+drop policy if exists "agenda web: cancellazione" on reminders;
+create policy "agenda web: cancellazione" on reminders
+  for delete using (true);
+
+-- Le altre tabelle restano chiuse alla chiave pubblica: RLS attiva e
+-- nessuna policy per anon, quindi solo la service key (bot/listener/recap)
+-- può leggerle o scriverle.
+alter table messages enable row level security;
+alter table recaps enable row level security;
