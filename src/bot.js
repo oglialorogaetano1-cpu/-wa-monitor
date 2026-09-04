@@ -1,1 +1,315 @@
-Ly8gd2EtbW9uaXRvciAvIGJvdCBUZWxlZ3JhbQovLyBHYWV0YW5vIGRpYWxvZ2EgcXVpIGluIGxpbmd1YWdnaW8gbmF0dXJhbGUuIElsIGJvdCB1c2EgQ2xhdWRlIGNvbiBkdWUKLy8gc3RydW1lbnRpIHZlcmkgKHJpY2VyY2EgbWVzc2FnZ2ksIGNvbnRlZ2dpbyB0cmFmZmljbykgcGVyIHJpc3BvbmRlcmUKLy8gbGVnZ2VuZG8gcXVlbGxvIGNoZSBpbCBsaXN0ZW5lciBoYSByYWNjb2x0by4gT2dnaSBpbCBib3QgTk9OIHB1w7IgY29tcGllcmUKLy8gYXppb25pIChtYW5kYXJlIG1haWwsIGVjYy4pOiBzZSByaWNoaWVzdG8sIGxvIGRpY2UgY2hpYXJhbWVudGUgaW52ZWNlIGRpCi8vIGZhciBmaW50YSBkaSBhdmVybG8gZmF0dG8uIERvbWFuaSwgcGVyIGFnZ2l1bmdlcmUgYXppb25pLCBiYXN0YSBhZ2dpdW5nZXJlCi8vIG51b3ZpIHRvb2wgYSBxdWVzdGEgc3Rlc3NhIGxpc3RhLgoKcmVxdWlyZSgnZG90ZW52JykuY29uZmlnKCk7CmNvbnN0IHsgVGVsZWdyYWYgfSA9IHJlcXVpcmUoJ3RlbGVncmFmJyk7CmNvbnN0IEFudGhyb3BpYyA9IHJlcXVpcmUoJ0BhbnRocm9waWMtYWkvc2RrJykuZGVmYXVsdDsKY29uc3QgewogIHNlYXJjaE1lc3NhZ2VzLAogIGNvdW50VHJhZmZpYywKICBhZGRSZW1pbmRlciwKICBsaXN0UmVtaW5kZXJzLAogIGNvbXBsZXRlUmVtaW5kZXIsCiAgYWRkTGVnYWxNYXR0ZXIsCiAgbGlzdExlZ2FsTWF0dGVycywKICB1cGRhdGVMZWdhbE1hdHRlciwKICBjcmVhdGVEcmFmdEVtYWlsLAogIGxpc3RQZW5kaW5nQWN0aW9ucywKICBtYXJrQWN0aW9uUmVqZWN0ZWQsCiAgc3VwYWJhc2UsCn0gPSByZXF1aXJlKCcuL3F1ZXJpZXMnKTsKY29uc3QgeyBzZW5kTWFpbCB9ID0gcmVxdWlyZSgnLi9tYWlsZXInKTsKCmNvbnN0IHsKICBURUxFR1JBTV9CT1RfVE9LRU4sCiAgVEVMRUdSQU1fQ0hBVF9JRCwKICBBTlRIUk9QSUNfQVBJX0tFWSwKfSA9IHByb2Nlc3MuZW52OwoKaWYgKCFURUxFR1JBTV9CT1RfVE9LRU4gfHwgIVRFTEVHUkFNX0NIQVRfSUQgfHwgIUFOVEhST1BJQ19BUElfS0VZKSB7CiAgY29uc29sZS5lcnJvcignTWFuY2FubyBURUxFR1JBTV9CT1RfVE9LRU4sIFRFTEVHUkFNX0NIQVRfSUQgbyBBTlRIUk9QSUNfQVBJX0tFWS4nKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnN0IGJvdCA9IG5ldyBUZWxlZ3JhZihURUxFR1JBTV9CT1RfVE9LRU4pOwpjb25zdCBhbnRocm9waWMgPSBuZXcgQW50aHJvcGljKHsgYXBpS2V5OiBBTlRIUk9QSUNfQVBJX0tFWSB9KTsKCmNvbnN0IFNZU1RFTV9QUk9NUFQgPSBgU2VpIGwnYXNzaXN0ZW50ZSBwZXJzb25hbGUgZGkgR2FldGFubyBzdSBUZWxlZ3JhbSwgaWwgc3VvIHB1bnRvIHVuaWNvIHBlcgpXaGF0c0FwcCwgYWdlbmRhLCBwcmF0aWNoZSBsZWdhbGkgZWQgZW1haWwuIFBhcmxpIGluIGl0YWxpYW5vLCB0b25vIGRpcmV0dG8gZQpuYXR1cmFsZSwgc2VuemEgZWxlbmNoaSBwdW50YXRpIG7DqSB0aXRvbGksIGNvbWUgaW4gdW5hIGNoYXQgbm9ybWFsZS4KCk1FU1NBR0dJIFdIQVRTQVBQOiBsZWdnaSAoaW4gc29sYSBsZXR0dXJhLCBub24gc2NyaXZpIG1haSBzdSBXaGF0c0FwcCkgc2lhIGlsCm51bWVybyBwZXJzb25hbGUgY2hlIHF1ZWxsbyBkaSBsYXZvcm8g4oCUIHF1ZXN0J3VsdGltbyBoYSBnacOgIHVuIGJvdCBzdW8gKExlbykKY2hlIGdlc3Rpc2NlIGkgbGVhZCwgdHUgbG8gb3NzZXJ2aSBzb2x0YW50by4gUXVhbmRvIGZhaSB1biByaWVwaWxvZ28gbyByaXNwb25kaQphICJjb3NhIG1pIHNvbm8gcGVyc28iLCBhcHBsaWNhIHNlbXByZSBxdWVzdGEgZ3JpZ2xpYSBtZW50YWxlIGludmVjZSBkaQplbGVuY2FyZSB0dXR0byBhbGxhIHJpbmZ1c2E6IGNvc2EgcmljaGllZGUgdW5hIHJpc3Bvc3RhIGRpIEdhZXRhbm8gb2dnaSwgY29zYQrDqCBpbiBhdHRlc2EgZGkgcmlzcG9zdGEgZGFsbCdhbHRyYSBwYXJ0ZSwgY29zYSBHYWV0YW5vIGhhIHByb21lc3NvIGUgbm9uIGhhCmFuY29yYSBmYXR0bywgZSBjb3NhIMOoIHNvbG8gcnVtb3JlIChncnVwcGksIG5vdGlmaWNoZSwgY2hpYWNjaGllcmUpIGNoZSBwdcOyCmlnbm9yYXJlLiBEaScgc2VtcHJlIGRhIHF1YWxlIG51bWVybyAocGVyc29uYWxlIG8gbGF2b3JvKSB2aWVuZSB1biBtZXNzYWdnaW8KcXVhbmRvIMOoIHJpbGV2YW50ZS4KCkFHRU5EQTogZ2VzdGlzY2kgcHJvbWVtb3JpYSwgc2NhZGVuemUsIHBhZ2FtZW50aSBkYSBmYXJlIChlcy4gbXVyYXRvcmksCmZvcm5pdG9yaSwgcGVyc29uZSkgZSB2aWFnZ2kgY29uIGdsaSBzdHJ1bWVudGkgZGVkaWNhdGkuIFNlIEdhZXRhbm8gZMOgIHVuYQpkYXRhL29yYSByZWxhdGl2YSAobHVuZWTDrCwgZG9tYW5pLCB0cmEgdW4nb3JhKSBjb252ZXJ0aWxhIHR1IGluIElTTyA4NjAxCnVzYW5kbyBjb21lIHJpZmVyaW1lbnRvIGwnb3JhIGF0dHVhbGUgaW5kaWNhdGEgbmVsIG1lc3NhZ2dpbywgZnVzbyBvcmFyaW8KRXVyb3BlL1JvbWUuCgpQUkFUSUNIRSBMRUdBTEk6IHJpY29yc2ksIGNvbnRlc3RhemlvbmksIFBFQyBkZWxsJ2F2dm9jYXRvIGhhbm5vIHVuIGxvcm8Kc3BhemlvIGRlZGljYXRvLCBjb24gY29udHJvcGFydGUsIHJpZmVyaW1lbnRvIHByYXRpY2EgZSBzY2FkZW56YTogdXNhIGdsaQpzdHJ1bWVudGkgYXBwb3N0YSwgbm9uIHRyYXR0YXJsZSBjb21lIHNlbXBsaWNpIHByb21lbW9yaWEuCgpBWklPTkkgKG1hbmRhcmUgZW1haWwpOiBwdW9pIHByZXBhcmFyZSBib3p6ZSBkaSBlbWFpbCBxdWFuZG8gc2VydmUKc2NyaXZlcmUgYSBxdWFsY3VubywgbWEgTk9OIGxlIG1hbmRpIG1haSBkYSBzb2xvLiBQcmVwYXJhIGxhIGJvenphIGNvbgpwcmVwYXJhX2VtYWlsLCBtb3N0cmEgYSBHYWV0YW5vIGRlc3RpbmF0YXJpbywgb2dnZXR0byBlIHRlc3RvIHBlciBpbnRlcm8KbmVsIG1lc3NhZ2dpbywgZSBjaGllZGlnbGkgY29uZmVybWEgZXNwbGljaXRhLiBTb2xvIHNlIEdhZXRhbm8gYXBwcm92YQpjaGlhcmFtZW50ZSBxdWVsbGEgYm96emEgc3BlY2lmaWNhIChlcy4gImludmlhIiwgInZhIGJlbmUgbWFuZGFsYSIsCiJzw6wgY29uZmVybW8iKSBjaGlhbWkgaW52aWFfZW1haWxfYXBwcm92YXRhIGNvbiBsJ2lkIGRpIHF1ZWxsYSBib3p6YS4KU2Ugbm9uIMOoIGluZXF1aXZvY2FiaWxlIGNoZSBzdGlhIGFwcHJvdmFuZG8gcHJvcHJpbyBxdWVsbGEgYm96emEsIGNoaWVkaQpkaSBudW92byBpbnZlY2UgZGkgaW52aWFyZS4gUGVyIHF1YWx1bnF1ZSBhbHRyYSBhemlvbmUgY2hlIG5vbiBoYWkgY29tZQpzdHJ1bWVudG8sIGRpbGxvIGNoaWFyYW1lbnRlIGludmVjZSBkaSBmYXIgZmludGEgZGkgYXZlcmxhIGVzZWd1aXRhLmA7Cgpjb25zdCB0b29scyA9IFsKICB7CiAgICBuYW1lOiAnY2VyY2FfbWVzc2FnZ2knLAogICAgZGVzY3JpcHRpb246CiAgICAgICdDZXJjYSB0cmEgaSBtZXNzYWdnaSBXaGF0c0FwcCByYWNjb2x0aSBkYWwgbW9uaXRvcmFnZ2lvLCBmaWx0cmFuZG8gcGVyIHBlcmlvZG8sIGNvbnRhdHRvL2NoYXQsIHRlc3RvIGNvbnRlbnV0byBvIHByaW9yaXTDoC4nLAogICAgaW5wdXRfc2NoZW1hOiB7CiAgICAgIHR5cGU6ICdvYmplY3QnLAogICAgICBwcm9wZXJ0aWVzOiB7CiAgICAgICAgZnJvbTogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICdEYXRhL29yYSBkaSBpbml6aW8gaW4gZm9ybWF0byBJU08gODYwMSwgb3B6aW9uYWxlJyB9LAogICAgICAgIHRvOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ0RhdGEvb3JhIGRpIGZpbmUgaW4gZm9ybWF0byBJU08gODYwMSwgb3B6aW9uYWxlJyB9LAogICAgICAgIGNvbnRhY3Q6IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAnTm9tZSBkZWwgY29udGF0dG8gbyBkZWxsYSBjaGF0IGRhIGNlcmNhcmUsIG9wemlvbmFsZScgfSwKICAgICAgICB0ZXh0OiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ1Rlc3RvIGRhIGNlcmNhcmUgbmVsIGNvcnBvIGRlbCBtZXNzYWdnaW8sIG9wemlvbmFsZScgfSwKICAgICAgICBwcmlvcml0eTogeyB0eXBlOiAnc3RyaW5nJywgZW51bTogWydhbHRhJywgJ25vcm1hbGUnLCAnYmFzc2EnXSwgZGVzY3JpcHRpb246ICdQcmlvcml0w6AgYXNzZWduYXRhLCBvcHppb25hbGUnIH0sCiAgICAgICAgd2FfYWNjb3VudDogeyB0eXBlOiAnc3RyaW5nJywgZW51bTogWydwZXJzb25hbGUnLCAnbGF2b3JvJ10sIGRlc2NyaXB0aW9uOiAnTGltaXRhIGEgdW4gc29sbyBudW1lcm8sIG9wemlvbmFsZScgfSwKICAgICAgICBsaW1pdDogeyB0eXBlOiAnbnVtYmVyJywgZGVzY3JpcHRpb246ICdOdW1lcm8gbWFzc2ltbyBkaSByaXN1bHRhdGksIGRlZmF1bHQgNTAnIH0sCiAgICAgIH0sCiAgICB9LAogIH0sCiAgewogICAgbmFtZTogJ2NvbnRhX3RyYWZmaWNvJywKICAgIGRlc2NyaXB0aW9uOgogICAgICAnQ29udGEgcXVhbnRpIG1lc3NhZ2dpIHNvbm8gYXJyaXZhdGkgbmVsIHBlcmlvZG8gaW5kaWNhdG8sIHJhZ2dydXBwYXRpIHBlciBjb250YXR0by9jaGF0LCBwZXIgY2FwaXJlIGNoaSBzY3JpdmUgZGkgcGnDuS4nLAogICAgaW5wdXRfc2NoZW1hOiB7CiAgICAgIHR5cGU6ICdvYmplY3QnLAogICAgICBwcm9wZXJ0aWVzOiB7CiAgICAgICAgZnJvbTogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICdEYXRhL29yYSBkaSBpbml6aW8gaW4gZm9ybWF0byBJU08gODYwMSwgb3B6aW9uYWxlJyB9LAogICAgICAgIHRvOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ0RhdGEvb3JhIGRpIGZpbmUgaW4gZm9ybWF0byBJU08gODYwMSwgb3B6aW9uYWxlJyB9LAogICAgICAgIHdhX2FjY291bnQ6IHsgdHlwZTogJ3N0cmluZycsIGVudW06IFsncGVyc29uYWxlJywgJ2xhdm9ybyddLCBkZXNjcmlwdGlvbjogJ0xpbWl0YSBhIHVuIHNvbG8gbnVtZXJvLCBvcHppb25hbGUnIH0sCiAgICAgIH0sCiAgICB9LAogIH0sCiAgewogICAgbmFtZTogJ2FnZ2l1bmdpX3Byb21lbW9yaWEnLAogICAgZGVzY3JpcHRpb246ICdDcmVhIHVuIG51b3ZvIHByb21lbW9yaWEgbyBzY2FkZW56YSBuZWxsXCdhZ2VuZGEgcGVyc29uYWxlIGRpIEdhZXRhbm8uJywKICAgIGlucHV0X3NjaGVtYTogewogICAgICB0eXBlOiAnb2JqZWN0JywKICAgICAgcHJvcGVydGllczogewogICAgICAgIHRpdGxlOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ1RpdG9sbyBicmV2ZSBkZWwgcHJvbWVtb3JpYScgfSwKICAgICAgICBub3RlczogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICdEZXR0YWdsaSBhZ2dpdW50aXZpLCBvcHppb25hbGUnIH0sCiAgICAgICAgZHVlX2F0OiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ1NjYWRlbnphIGluIGZvcm1hdG8gSVNPIDg2MDEsIG9wemlvbmFsZSBzZSBub24gaGEgdW5hIGRhdGEgcHJlY2lzYScgfSwKICAgICAgICBwcmlvcml0eTogeyB0eXBlOiAnc3RyaW5nJywgZW51bTogWydhbHRhJywgJ25vcm1hbGUnLCAnYmFzc2EnXSwgZGVzY3JpcHRpb246ICdQcmlvcml0w6AsIGRlZmF1bHQgbm9ybWFsZScgfSwKICAgICAgICBjYXRlZ29yeTogeyB0eXBlOiAnc3RyaW5nJywgZW51bTogWydnZW5lcmljbycsICdwYWdhbWVudG8nLCAndmlhZ2dpbycsICdsZWdhbGUnXSwgZGVzY3JpcHRpb246ICdUaXBvIGRpIHByb21lbW9yaWEsIGRlZmF1bHQgZ2VuZXJpY28uIFBlciByaWNvcnNpL2NvbnRlc3RhemlvbmkvUEVDIGF2dm9jYXRvIHVzYSBpbnZlY2UgcmVnaXN0cmFfcHJhdGljYV9sZWdhbGUuJyB9LAogICAgICAgIGNvdW50ZXJwYXJ0OiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ0EgY2hpIHNpIHJpZmVyaXNjZSwgZXMuICJtdXJhdG9yZSBGcmFuY28iIG8gImFzc2ljdXJhemlvbmUiLCBvcHppb25hbGUnIH0sCiAgICAgICAgYW1vdW50OiB7IHR5cGU6ICdudW1iZXInLCBkZXNjcmlwdGlvbjogJ0ltcG9ydG8sIHNvbG8gc2Ugw6ggdW4gcGFnYW1lbnRvLCBvcHppb25hbGUnIH0sCiAgICAgIH0sCiAgICAgIHJlcXVpcmVkOiBbJ3RpdGxlJ10sCiAgICB9LAogIH0sCiAgewogICAgbmFtZTogJ2xpc3RhX3Byb21lbW9yaWEnLAogICAgZGVzY3JpcHRpb246ICdFbGVuY2EgaSBwcm9tZW1vcmlhL3NjYWRlbnplIGRlbGxcJ2FnZW5kYSwgZmlsdHJhdGkgcGVyIHN0YXRvIGUgcGVyaW9kby4nLAogICAgaW5wdXRfc2NoZW1hOiB7CiAgICAgIHR5cGU6ICdvYmplY3QnLAogICAgICBwcm9wZXJ0aWVzOiB7CiAgICAgICAgc3RhdHVzOiB7IHR5cGU6ICdzdHJpbmcnLCBlbnVtOiBbJ3BlbmRpbmcnLCAnZG9uZSddLCBkZXNjcmlwdGlvbjogJ0RlZmF1bHQgcGVuZGluZyAoZGEgZmFyZSknIH0sCiAgICAgICAgZnJvbTogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICdTY2FkZW56YSBkYSAoSVNPIDg2MDEpLCBvcHppb25hbGUnIH0sCiAgICAgICAgdG86IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAnU2NhZGVuemEgYSAoSVNPIDg2MDEpLCBvcHppb25hbGUnIH0sCiAgICAgIH0sCiAgICB9LAogIH0sCiAgewogICAgbmFtZTogJ2NvbXBsZXRhX3Byb21lbW9yaWEnLAogICAgZGVzY3JpcHRpb246ICdTZWduYSBjb21lIGZhdHRvIHVuIHByb21lbW9yaWEsIGNlcmNhbmRvbG8gcGVyIGlkIG8gcGVyIHRpdG9sbyBzaW1pbGUuJywKICAgIGlucHV0X3NjaGVtYTogewogICAgICB0eXBlOiAnb2JqZWN0JywKICAgICAgcHJvcGVydGllczogewogICAgICAgIGlkOiB7IHR5cGU6ICdudW1iZXInLCBkZXNjcmlwdGlvbjogJ0lkIGRlbCBwcm9tZW1vcmlhLCBzZSBub3RvJyB9LAogICAgICAgIHRpdGxlOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ1Rlc3RvIHBlciBjZXJjYXJsbyBwZXIgdGl0b2xvLCBzZSBsXCdpZCBub24gw6ggbm90bycgfSwKICAgICAgfSwKICAgIH0sCiAgfSwKICB7CiAgICBuYW1lOiAncmVnaXN0cmFfcHJhdGljYV9sZWdhbGUnLAogICAgZGVzY3JpcHRpb246ICdSZWdpc3RyYSBvIGFnZ2lvcm5hIHVuIHJpY29yc28sIHVuYSBjb250ZXN0YXppb25lIG8gdW5hIFBFQyBkZWxsXCdhdnZvY2F0bywgY29uIGNvbnRyb3BhcnRlIGUgc2NhZGVuemEuJywKICAgIGlucHV0X3NjaGVtYTogewogICAgICB0eXBlOiAnb2JqZWN0JywKICAgICAgcHJvcGVydGllczogewogICAgICAgIHRpdGxlOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ1RpdG9sbyBicmV2ZSBkZWxsYSBwcmF0aWNhJyB9LAogICAgICAgIHRpcG86IHsgdHlwZTogJ3N0cmluZycsIGVudW06IFsncmljb3JzbycsICdjb250ZXN0YXppb25lJywgJ3BlY19hdnZvY2F0bycsICdhbHRybyddIH0sCiAgICAgICAgY29udHJvcGFydGU6IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAnQ2hpIMOoIGRhbGxcJ2FsdHJhIHBhcnRlLCBlcy4gIkFnZW56aWEgRW50cmF0ZSIgbyAiQXZ2LiBCaWFuY2hpIiwgb3B6aW9uYWxlJyB9LAogICAgICAgIHJpZmVyaW1lbnRvOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ051bWVybyBwcmF0aWNhIG8gcHJvdG9jb2xsbywgb3B6aW9uYWxlJyB9LAogICAgICAgIHNjYWRlbnphOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ1NjYWRlbnphIGluIElTTyA4NjAxLCBvcHppb25hbGUnIH0sCiAgICAgICAgbm90ZXM6IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAnRGV0dGFnbGksIG9wemlvbmFsZScgfSwKICAgICAgfSwKICAgICAgcmVxdWlyZWQ6IFsndGl0bGUnXSwKICAgIH0sCiAgfSwKICB7CiAgICBuYW1lOiAnbGlzdGFfcHJhdGljaGVfbGVnYWxpJywKICAgIGRlc2NyaXB0aW9uOiAnRWxlbmNhIGxlIHByYXRpY2hlIGxlZ2FsaSwgcGVyIHN0YXRvIChkZWZhdWx0OiBhcGVydGEpLicsCiAgICBpbnB1dF9zY2hlbWE6IHsKICAgICAgdHlwZTogJ29iamVjdCcsCiAgICAgIHByb3BlcnRpZXM6IHsKICAgICAgICBzdGF0bzogeyB0eXBlOiAnc3RyaW5nJywgZW51bTogWydhcGVydGEnLCAnaW5fY29yc28nLCAnY2hpdXNhJ10gfSwKICAgICAgfSwKICAgIH0sCiAgfSwKICB7CiAgICBuYW1lOiAnYWdnaW9ybmFfcHJhdGljYV9sZWdhbGUnLAogICAgZGVzY3JpcHRpb246ICdBZ2dpb3JuYSBsbyBzdGF0byBvIGxlIG5vdGUgZGkgdW5hIHByYXRpY2EgbGVnYWxlIGVzaXN0ZW50ZSwgZGF0byBpbCBzdW8gaWQuJywKICAgIGlucHV0X3NjaGVtYTogewogICAgICB0eXBlOiAnb2JqZWN0JywKICAgICAgcHJvcGVydGllczogewogICAgICAgIGlkOiB7IHR5cGU6ICdudW1iZXInIH0sCiAgICAgICAgc3RhdG86IHsgdHlwZTogJ3N0cmluZycsIGVudW06IFsnYXBlcnRhJywgJ2luX2NvcnNvJywgJ2NoaXVzYSddIH0sCiAgICAgICAgbm90ZXM6IHsgdHlwZTogJ3N0cmluZycgfSwKICAgICAgICBzY2FkZW56YTogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICdOdW92YSBzY2FkZW56YSBpbiBJU08gODYwMScgfSwKICAgICAgfSwKICAgICAgcmVxdWlyZWQ6IFsnaWQnXSwKICAgIH0sCiAgfSwKICB7CiAgICBuYW1lOiAncHJlcGFyYV9lbWFpbCcsCiAgICBkZXNjcmlwdGlvbjogJ1ByZXBhcmEgdW5hIGJvenphIGRpIGVtYWlsIGRhIG1vc3RyYXJlIGEgR2FldGFubyBwZXIgYXBwcm92YXppb25lLiBOb24gbGEgaW52aWEuJywKICAgIGlucHV0X3NjaGVtYTogewogICAgICB0eXBlOiAnb2JqZWN0JywKICAgICAgcHJvcGVydGllczogewogICAgICAgIHRvOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ0luZGlyaXp6byBkZXN0aW5hdGFyaW8nIH0sCiAgICAgICAgc3ViamVjdDogeyB0eXBlOiAnc3RyaW5nJyB9LAogICAgICAgIGJvZHk6IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAnVGVzdG8gY29tcGxldG8gZGVsbFwnZW1haWwnIH0sCiAgICAgICAgY29udGV4dDogeyB0eXBlOiAnc3RyaW5nJywgZGVzY3JpcHRpb246ICdQZXJjaMOpIHByb3BvbmkgcXVlc3RhIGVtYWlsLCBwZXIgdHVvIHJpZmVyaW1lbnRvJyB9LAogICAgICB9LAogICAgICByZXF1aXJlZDogWyd0bycsICdzdWJqZWN0JywgJ2JvZHknXSwKICAgIH0sCiAgfSwKICB7CiAgICBuYW1lOiAnaW52aWFfZW1haWxfYXBwcm92YXRhJywKICAgIGRlc2NyaXB0aW9uOiAnSW52aWEgdW5hIGJvenphIGRpIGVtYWlsIFNPTE8gZG9wbyBjaGUgR2FldGFubyBoYSBjb25mZXJtYXRvIGVzcGxpY2l0YW1lbnRlIHByb3ByaW8gcXVlbGxhIGJvenphLicsCiAgICBpbnB1dF9zY2hlbWE6IHsKICAgICAgdHlwZTogJ29iamVjdCcsCiAgICAgIHByb3BlcnRpZXM6IHsKICAgICAgICBpZDogeyB0eXBlOiAnbnVtYmVyJywgZGVzY3JpcHRpb246ICdJZCBkZWxsYSBib3p6YSBkYSBpbnZpYXJlJyB9LAogICAgICB9LAogICAgICByZXF1aXJlZDogWydpZCddLAogICAgfSwKICB9LApdOwoKYXN5bmMgZnVuY3Rpb24gcnVuVG9vbChuYW1lLCBpbnB1dCkgewogIGlmIChuYW1lID09PSAnY2VyY2FfbWVzc2FnZ2knKSByZXR1cm4gc2VhcmNoTWVzc2FnZXMoaW5wdXQpOwogIGlmIChuYW1lID09PSAnY29udGFfdHJhZmZpY28nKSByZXR1cm4gY291bnRUcmFmZmljKGlucHV0KTsKICBpZiAobmFtZSA9PT0gJ2FnZ2l1bmdpX3Byb21lbW9yaWEnKSByZXR1cm4gYWRkUmVtaW5kZXIoaW5wdXQpOwogIGlmIChuYW1lID09PSAnbGlzdGFfcHJvbWVtb3JpYScpIHJldHVybiBsaXN0UmVtaW5kZXJzKGlucHV0KTsKICBpZiAobmFtZSA9PT0gJ2NvbXBsZXRhX3Byb21lbW9yaWEnKSByZXR1cm4gY29tcGxldGVSZW1pbmRlcihpbnB1dCk7CiAgaWYgKG5hbWUgPT09ICdyZWdpc3RyYV9wcmF0aWNhX2xlZ2FsZScpIHJldHVybiBhZGRMZWdhbE1hdHRlcihpbnB1dCk7CiAgaWYgKG5hbWUgPT09ICdsaXN0YV9wcmF0aWNoZV9sZWdhbGknKSByZXR1cm4gbGlzdExlZ2FsTWF0dGVycyhpbnB1dCk7CiAgaWYgKG5hbWUgPT09ICdhZ2dpb3JuYV9wcmF0aWNhX2xlZ2FsZScpIHJldHVybiB1cGRhdGVMZWdhbE1hdHRlcihpbnB1dCk7CiAgaWYgKG5hbWUgPT09ICdwcmVwYXJhX2VtYWlsJykgcmV0dXJuIGNyZWF0ZURyYWZ0RW1haWwoaW5wdXQpOwogIGlmIChuYW1lID09PSAnaW52aWFfZW1haWxfYXBwcm92YXRhJykgcmV0dXJuIHNlbmRBcHByb3ZlZEVtYWlsKGlucHV0LmlkKTsKICB0aHJvdyBuZXcgRXJyb3IoYFN0cnVtZW50byBzY29ub3NjaXV0bzogJHtuYW1lfWApOwp9CgovLyBJbnZpYSBzb2xvIHNlIGxhIGJvenphIGVzaXN0ZSBhbmNvcmEgZWQgw6ggaW4gc3RhdG8gJ2RyYWZ0JzogZXZpdGEgZG9wcGkKLy8gaW52aWkgc2UgR2FldGFubyBjb25mZXJtYSBkdWUgdm9sdGUgcGVyIGVycm9yZS4KYXN5bmMgZnVuY3Rpb24gc2VuZEFwcHJvdmVkRW1haWwoaWQpIHsKICBjb25zdCBkcmFmdHMgPSBhd2FpdCBsaXN0UGVuZGluZ0FjdGlvbnMoeyBzdGF0dXM6ICdkcmFmdCcsIGxpbWl0OiA1MCB9KTsKICBjb25zdCBkcmFmdCA9IGRyYWZ0cy5maW5kKChkKSA9PiBkLmlkID09PSBpZCk7CiAgaWYgKCFkcmFmdCkgewogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBtZXNzYWdlOiAnQm96emEgbm9uIHRyb3ZhdGEgbyBnacOgIGdlc3RpdGEgaW4gcHJlY2VkZW56YS4nIH07CiAgfQogIGF3YWl0IHNlbmRNYWlsKGRyYWZ0LnBheWxvYWQpOwogIGF3YWl0IHN1cGFiYXNlLmZyb20oJ3BlbmRpbmdfYWN0aW9ucycpLnVwZGF0ZSh7IHN0YXR1czogJ3NlbnQnLCBzZW50X2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgfSkuZXEoJ2lkJywgaWQpOwogIHJldHVybiB7IG9rOiB0cnVlLCBtZXNzYWdlOiBgRW1haWwgaW52aWF0YSBhICR7ZHJhZnQucGF5bG9hZC50b30uYCB9Owp9Cgphc3luYyBmdW5jdGlvbiBhc2sodXNlclRleHQpIHsKICBjb25zdCBub3cgPSBuZXcgRGF0ZSgpLnRvTG9jYWxlU3RyaW5nKCdpdC1JVCcsIHsgdGltZVpvbmU6ICdFdXJvcGUvUm9tZScgfSk7CiAgY29uc3QgbWVzc2FnZXMgPSBbCiAgICB7IHJvbGU6ICd1c2VyJywgY29udGVudDogYFtPcmEgYXR0dWFsZTogJHtub3d9LCBFdXJvcGUvUm9tZV1cblxuJHt1c2VyVGV4dH1gIH0sCiAgXTsKCiAgZm9yIChsZXQgdHVybiA9IDA7IHR1cm4gPCA1OyB0dXJuKyspIHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYW50aHJvcGljLm1lc3NhZ2VzLmNyZWF0ZSh7CiAgICAgIG1vZGVsOiAnY2xhdWRlLXNvbm5ldC00LTUnLAogICAgICBtYXhfdG9rZW5zOiAxNTAwLAogICAgICBzeXN0ZW06IFNZU1RFTV9QUk9NUFQsCiAgICAgIHRvb2xzLAogICAgICBtZXNzYWdlcywKICAgIH0pOwoKICAgIGNvbnN0IHRvb2xVc2VzID0gcmVzcG9uc2UuY29udGVudC5maWx0ZXIoKGIpID0+IGIudHlwZSA9PT0gJ3Rvb2xfdXNlJyk7CiAgICBpZiAodG9vbFVzZXMubGVuZ3RoID09PSAwKSB7CiAgICAgIHJldHVybiByZXNwb25zZS5jb250ZW50CiAgICAgICAgLmZpbHRlcigoYikgPT4gYi50eXBlID09PSAndGV4dCcpCiAgICAgICAgLm1hcCgoYikgPT4gYi50ZXh0KQogICAgICAgIC5qb2luKCdcbicpOwogICAgfQoKICAgIG1lc3NhZ2VzLnB1c2goeyByb2xlOiAnYXNzaXN0YW50JywgY29udGVudDogcmVzcG9uc2UuY29udGVudCB9KTsKCiAgICBjb25zdCB0b29sUmVzdWx0cyA9IFtdOwogICAgZm9yIChjb25zdCB1c2Ugb2YgdG9vbFVzZXMpIHsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBydW5Ub29sKHVzZS5uYW1lLCB1c2UuaW5wdXQgfHwge30pOwogICAgICAgIHRvb2xSZXN1bHRzLnB1c2goewogICAgICAgICAgdHlwZTogJ3Rvb2xfcmVzdWx0JywKICAgICAgICAgIHRvb2xfdXNlX2lkOiB1c2UuaWQsCiAgICAgICAgICBjb250ZW50OiBKU09OLnN0cmluZ2lmeShyZXN1bHQpLAogICAgICAgIH0pOwogICAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgICB0b29sUmVzdWx0cy5wdXNoKHsKICAgICAgICAgIHR5cGU6ICd0b29sX3Jlc3VsdCcsCiAgICAgICAgICB0b29sX3VzZV9pZDogdXNlLmlkLAogICAgICAgICAgY29udGVudDogYEVycm9yZTogJHtlcnIubWVzc2FnZX1gLAogICAgICAgICAgaXNfZXJyb3I6IHRydWUsCiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0KICAgIG1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6IHRvb2xSZXN1bHRzIH0pOwogIH0KCiAgcmV0dXJuICdIbyBmYXR0byB0cm9wcGkgcGFzc2FnZ2kgcGVyIHJpc3BvbmRlcmUsIHByb3ZhIGEgcmlmb3JtdWxhcmUgbGEgZG9tYW5kYSBpbiBtb2RvIHBpw7kgc3BlY2lmaWNvLic7Cn0KCmJvdC51c2UoYXN5bmMgKGN0eCwgbmV4dCkgPT4gewogIGNvbnN0IGNoYXRJZCA9IFN0cmluZyhjdHguY2hhdD8uaWQgfHwgJycpOwogIGlmIChjaGF0SWQgIT09IFN0cmluZyhURUxFR1JBTV9DSEFUX0lEKSkgewogICAgcmV0dXJuOyAvLyBpZ25vcmEgY2hpdW5xdWUgbm9uIHNpYSBHYWV0YW5vCiAgfQogIHJldHVybiBuZXh0KCk7Cn0pOwoKYm90LnN0YXJ0KChjdHgpID0+IGN0eC5yZXBseSgnQ2lhbyBHYWV0YW5vLCBzb25vIG9ubGluZS4gQ2hpZWRpbWkgcHVyZSBjb3NhIHRpIHNlaSBwZXJzby4nKSk7Cgpib3Qub24oJ3RleHQnLCBhc3luYyAoY3R4KSA9PiB7CiAgdHJ5IHsKICAgIGF3YWl0IGN0eC5zZW5kQ2hhdEFjdGlvbigndHlwaW5nJyk7CiAgICBjb25zdCByZXBseSA9IGF3YWl0IGFzayhjdHgubWVzc2FnZS50ZXh0KTsKICAgIGF3YWl0IGN0eC5yZXBseShyZXBseSB8fCAnTm9uIGhvIHRyb3ZhdG8gbnVsbGEgZGkgcmlsZXZhbnRlLicpOwogIH0gY2F0Y2ggKGVycikgewogICAgY29uc29sZS5lcnJvcignRXJyb3JlIGJvdDonLCBlcnIpOwogICAgYXdhaXQgY3R4LnJlcGx5KCdIbyBhdnV0byB1biBwcm9ibGVtYSBhIHJpc3BvbmRlcmUsIHJpcHJvdmEgdHJhIHBvY28uJyk7CiAgfQp9KTsKCmJvdC5sYXVuY2goKTsKY29uc29sZS5sb2coJ0JvdCBUZWxlZ3JhbSBhdnZpYXRvLicpOwoKcHJvY2Vzcy5vbmNlKCdTSUdJTlQnLCAoKSA9PiBib3Quc3RvcCgnU0lHSU5UJykpOwpwcm9jZXNzLm9uY2UoJ1NJR1RFUk0nLCAoKSA9PiBib3Quc3RvcCgnU0lHVEVSTScpKTsK
+// wa-monitor / bot Telegram
+// Gaetano dialoga qui in linguaggio naturale. Il bot usa Claude con due
+// strumenti veri (ricerca messaggi, conteggio traffico) per rispondere
+// leggendo quello che il listener ha raccolto. Oggi il bot NON può compiere
+// azioni (mandare mail, ecc.): se richiesto, lo dice chiaramente invece di
+// far finta di averlo fatto. Domani, per aggiungere azioni, basta aggiungere
+// nuovi tool a questa stessa lista.
+
+require('dotenv').config();
+const { Telegraf } = require('telegraf');
+const Anthropic = require('@anthropic-ai/sdk').default;
+const {
+  searchMessages,
+  countTraffic,
+  addReminder,
+  listReminders,
+  completeReminder,
+  addLegalMatter,
+  listLegalMatters,
+  updateLegalMatter,
+  createDraftEmail,
+  listPendingActions,
+  markActionRejected,
+  supabase,
+} = require('./queries');
+const { sendMail } = require('./mailer');
+
+const {
+  TELEGRAM_BOT_TOKEN,
+  TELEGRAM_CHAT_ID,
+  ANTHROPIC_API_KEY,
+} = process.env;
+
+if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID || !ANTHROPIC_API_KEY) {
+  console.error('Mancano TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID o ANTHROPIC_API_KEY.');
+  process.exit(1);
+}
+
+const bot = new Telegraf(TELEGRAM_BOT_TOKEN);
+const anthropic = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
+
+const SYSTEM_PROMPT = `Sei l'assistente personale di Gaetano su Telegram, il suo punto unico per
+WhatsApp, agenda, pratiche legali ed email. Parli in italiano, tono diretto e
+naturale, senza elenchi puntati né titoli, come in una chat normale.
+
+MESSAGGI WHATSAPP: leggi (in sola lettura, non scrivi mai su WhatsApp) sia il
+numero personale che quello di lavoro — quest'ultimo ha già un bot suo (Leo)
+che gestisce i lead, tu lo osservi soltanto. Quando fai un riepilogo o rispondi
+a "cosa mi sono perso", applica sempre questa griglia mentale invece di
+elencare tutto alla rinfusa: cosa richiede una risposta di Gaetano oggi, cosa
+è in attesa di risposta dall'altra parte, cosa Gaetano ha promesso e non ha
+ancora fatto, e cosa è solo rumore (gruppi, notifiche, chiacchiere) che può
+ignorare. Di' sempre da quale numero (personale o lavoro) viene un messaggio
+quando è rilevante.
+
+AGENDA: gestisci promemoria, scadenze, pagamenti da fare (es. muratori,
+fornitori, persone) e viaggi con gli strumenti dedicati. Se Gaetano dà una
+data/ora relativa (lunedì, domani, tra un'ora) convertila tu in ISO 8601
+usando come riferimento l'ora attuale indicata nel messaggio, fuso orario
+Europe/Rome.
+
+PRATICHE LEGALI: ricorsi, contestazioni, PEC dell'avvocato hanno un loro
+spazio dedicato, con controparte, riferimento pratica e scadenza: usa gli
+strumenti apposta, non trattarle come semplici promemoria.
+
+AZIONI (mandare email): puoi preparare bozze di email quando serve
+scrivere a qualcuno, ma NON le mandi mai da solo. Prepara la bozza con
+prepara_email, mostra a Gaetano destinatario, oggetto e testo per intero
+nel messaggio, e chiedigli conferma esplicita. Solo se Gaetano approva
+chiaramente quella bozza specifica (es. "invia", "va bene mandala",
+"sì confermo") chiami invia_email_approvata con l'id di quella bozza.
+Se non è inequivocabile che stia approvando proprio quella bozza, chiedi
+di nuovo invece di inviare. Per qualunque altra azione che non hai come
+strumento, dillo chiaramente invece di far finta di averla eseguita.`;
+
+const tools = [
+  {
+    name: 'cerca_messaggi',
+    description:
+      'Cerca tra i messaggi WhatsApp raccolti dal monitoraggio, filtrando per periodo, contatto/chat, testo contenuto o priorità.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        from: { type: 'string', description: 'Data/ora di inizio in formato ISO 8601, opzionale' },
+        to: { type: 'string', description: 'Data/ora di fine in formato ISO 8601, opzionale' },
+        contact: { type: 'string', description: 'Nome del contatto o della chat da cercare, opzionale' },
+        text: { type: 'string', description: 'Testo da cercare nel corpo del messaggio, opzionale' },
+        priority: { type: 'string', enum: ['alta', 'normale', 'bassa'], description: 'Priorità assegnata, opzionale' },
+        wa_account: { type: 'string', enum: ['personale', 'lavoro'], description: 'Limita a un solo numero, opzionale' },
+        limit: { type: 'number', description: 'Numero massimo di risultati, default 50' },
+      },
+    },
+  },
+  {
+    name: 'conta_traffico',
+    description:
+      'Conta quanti messaggi sono arrivati nel periodo indicato, raggruppati per contatto/chat, per capire chi scrive di più.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        from: { type: 'string', description: 'Data/ora di inizio in formato ISO 8601, opzionale' },
+        to: { type: 'string', description: 'Data/ora di fine in formato ISO 8601, opzionale' },
+        wa_account: { type: 'string', enum: ['personale', 'lavoro'], description: 'Limita a un solo numero, opzionale' },
+      },
+    },
+  },
+  {
+    name: 'aggiungi_promemoria',
+    description: 'Crea un nuovo promemoria o scadenza nell\'agenda personale di Gaetano.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        title: { type: 'string', description: 'Titolo breve del promemoria' },
+        notes: { type: 'string', description: 'Dettagli aggiuntivi, opzionale' },
+        due_at: { type: 'string', description: 'Scadenza in formato ISO 8601, opzionale se non ha una data precisa' },
+        priority: { type: 'string', enum: ['alta', 'normale', 'bassa'], description: 'Priorità, default normale' },
+        category: { type: 'string', enum: ['generico', 'pagamento', 'viaggio', 'legale'], description: 'Tipo di promemoria, default generico. Per ricorsi/contestazioni/PEC avvocato usa invece registra_pratica_legale.' },
+        counterpart: { type: 'string', description: 'A chi si riferisce, es. "muratore Franco" o "assicurazione", opzionale' },
+        amount: { type: 'number', description: 'Importo, solo se è un pagamento, opzionale' },
+      },
+      required: ['title'],
+    },
+  },
+  {
+    name: 'lista_promemoria',
+    description: 'Elenca i promemoria/scadenze dell\'agenda, filtrati per stato e periodo.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        status: { type: 'string', enum: ['pending', 'done'], description: 'Default pending (da fare)' },
+        from: { type: 'string', description: 'Scadenza da (ISO 8601), opzionale' },
+        to: { type: 'string', description: 'Scadenza a (ISO 8601), opzionale' },
+      },
+    },
+  },
+  {
+    name: 'completa_promemoria',
+    description: 'Segna come fatto un promemoria, cercandolo per id o per titolo simile.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        id: { type: 'number', description: 'Id del promemoria, se noto' },
+        title: { type: 'string', description: 'Testo per cercarlo per titolo, se l\'id non è noto' },
+      },
+    },
+  },
+  {
+    name: 'registra_pratica_legale',
+    description: 'Registra o aggiorna un ricorso, una contestazione o una PEC dell\'avvocato, con controparte e scadenza.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        title: { type: 'string', description: 'Titolo breve della pratica' },
+        tipo: { type: 'string', enum: ['ricorso', 'contestazione', 'pec_avvocato', 'altro'] },
+        controparte: { type: 'string', description: 'Chi è dall\'altra parte, es. "Agenzia Entrate" o "Avv. Bianchi", opzionale' },
+        riferimento: { type: 'string', description: 'Numero pratica o protocollo, opzionale' },
+        scadenza: { type: 'string', description: 'Scadenza in ISO 8601, opzionale' },
+        notes: { type: 'string', description: 'Dettagli, opzionale' },
+      },
+      required: ['title'],
+    },
+  },
+  {
+    name: 'lista_pratiche_legali',
+    description: 'Elenca le pratiche legali, per stato (default: aperta).',
+    input_schema: {
+      type: 'object',
+      properties: {
+        stato: { type: 'string', enum: ['aperta', 'in_corso', 'chiusa'] },
+      },
+    },
+  },
+  {
+    name: 'aggiorna_pratica_legale',
+    description: 'Aggiorna lo stato o le note di una pratica legale esistente, dato il suo id.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        id: { type: 'number' },
+        stato: { type: 'string', enum: ['aperta', 'in_corso', 'chiusa'] },
+        notes: { type: 'string' },
+        scadenza: { type: 'string', description: 'Nuova scadenza in ISO 8601' },
+      },
+      required: ['id'],
+    },
+  },
+  {
+    name: 'prepara_email',
+    description: 'Prepara una bozza di email da mostrare a Gaetano per approvazione. Non la invia.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        to: { type: 'string', description: 'Indirizzo destinatario' },
+        subject: { type: 'string' },
+        body: { type: 'string', description: 'Testo completo dell\'email' },
+        context: { type: 'string', description: 'Perché proponi questa email, per tuo riferimento' },
+      },
+      required: ['to', 'subject', 'body'],
+    },
+  },
+  {
+    name: 'invia_email_approvata',
+    description: 'Invia una bozza di email SOLO dopo che Gaetano ha confermato esplicitamente proprio quella bozza.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        id: { type: 'number', description: 'Id della bozza da inviare' },
+      },
+      required: ['id'],
+    },
+  },
+];
+
+async function runTool(name, input) {
+  if (name === 'cerca_messaggi') return searchMessages(input);
+  if (name === 'conta_traffico') return countTraffic(input);
+  if (name === 'aggiungi_promemoria') return addReminder(input);
+  if (name === 'lista_promemoria') return listReminders(input);
+  if (name === 'completa_promemoria') return completeReminder(input);
+  if (name === 'registra_pratica_legale') return addLegalMatter(input);
+  if (name === 'lista_pratiche_legali') return listLegalMatters(input);
+  if (name === 'aggiorna_pratica_legale') return updateLegalMatter(input);
+  if (name === 'prepara_email') return createDraftEmail(input);
+  if (name === 'invia_email_approvata') return sendApprovedEmail(input.id);
+  throw new Error(`Strumento sconosciuto: ${name}`);
+}
+
+// Invia solo se la bozza esiste ancora ed è in stato 'draft': evita doppi
+// invii se Gaetano conferma due volte per errore.
+async function sendApprovedEmail(id) {
+  const drafts = await listPendingActions({ status: 'draft', limit: 50 });
+  const draft = drafts.find((d) => d.id === id);
+  if (!draft) {
+    return { ok: false, message: 'Bozza non trovata o già gestita in precedenza.' };
+  }
+  await sendMail(draft.payload);
+  await supabase.from('pending_actions').update({ status: 'sent', sent_at: new Date().toISOString() }).eq('id', id);
+  return { ok: true, message: `Email inviata a ${draft.payload.to}.` };
+}
+
+async function ask(userText) {
+  const now = new Date().toLocaleString('it-IT', { timeZone: 'Europe/Rome' });
+  const messages = [
+    { role: 'user', content: `[Ora attuale: ${now}, Europe/Rome]\n\n${userText}` },
+  ];
+
+  for (let turn = 0; turn < 5; turn++) {
+    const response = await anthropic.messages.create({
+      model: 'claude-sonnet-4-5',
+      max_tokens: 1500,
+      system: SYSTEM_PROMPT,
+      tools,
+      messages,
+    });
+
+    const toolUses = response.content.filter((b) => b.type === 'tool_use');
+    if (toolUses.length === 0) {
+      return response.content
+        .filter((b) => b.type === 'text')
+        .map((b) => b.text)
+        .join('\n');
+    }
+
+    messages.push({ role: 'assistant', content: response.content });
+
+    const toolResults = [];
+    for (const use of toolUses) {
+      try {
+        const result = await runTool(use.name, use.input || {});
+        toolResults.push({
+          type: 'tool_result',
+          tool_use_id: use.id,
+          content: JSON.stringify(result),
+        });
+      } catch (err) {
+        toolResults.push({
+          type: 'tool_result',
+          tool_use_id: use.id,
+          content: `Errore: ${err.message}`,
+          is_error: true,
+        });
+      }
+    }
+    messages.push({ role: 'user', content: toolResults });
+  }
+
+  return 'Ho fatto troppi passaggi per rispondere, prova a riformulare la domanda in modo più specifico.';
+}
+
+bot.use(async (ctx, next) => {
+  const chatId = String(ctx.chat?.id || '');
+  if (chatId !== String(TELEGRAM_CHAT_ID)) {
+    return; // ignora chiunque non sia Gaetano
+  }
+  return next();
+});
+
+bot.start((ctx) => ctx.reply('Ciao Gaetano, sono online. Chiedimi pure cosa ti sei perso.'));
+
+bot.on('text', async (ctx) => {
+  try {
+    await ctx.sendChatAction('typing');
+    const reply = await ask(ctx.message.text);
+    await ctx.reply(reply || 'Non ho trovato nulla di rilevante.');
+  } catch (err) {
+    console.error('Errore bot:', err);
+    await ctx.reply('Ho avuto un problema a rispondere, riprova tra poco.');
+  }
+});
+
+bot.launch();
+console.log('Bot Telegram avviato.');
+
+process.once('SIGINT', () => bot.stop('SIGINT'));
+process.once('SIGTERM', () => bot.stop('SIGTERM'));
