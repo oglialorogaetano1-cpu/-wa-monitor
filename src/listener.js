@@ -15,6 +15,7 @@ const {
   SUPABASE_SERVICE_KEY,
   QR_SECRET,
   WA_ACCOUNT_LABEL = 'personale', // 'personale' o 'lavoro': quale numero è questo listener
+  WA_AUTH_DIR = '/data',
   PORT = 3000,
 } = process.env;
 
@@ -35,7 +36,10 @@ let lastQr = null;
 let ready = false;
 
 const client = new Client({
-  authStrategy: new LocalAuth({ dataPath: `/data/wa-session-${WA_ACCOUNT_LABEL}` }),
+  authStrategy: new LocalAuth({
+    clientId: WA_ACCOUNT_LABEL,
+    dataPath: WA_AUTH_DIR,
+  }),
   puppeteer: {
     headless: true,
     args: [
@@ -52,10 +56,27 @@ client.on('qr', (qr) => {
   console.log('Nuovo QR generato. Aprire /qr?k=<QR_SECRET> per scansionarlo.');
 });
 
+client.on('authenticated', () => {
+  console.log(`WhatsApp (${WA_ACCOUNT_LABEL}) autenticazione riuscita.`);
+});
+
+client.on('auth_failure', (message) => {
+  ready = false;
+  console.error(`WhatsApp (${WA_ACCOUNT_LABEL}) autenticazione fallita:`, message);
+});
+
+client.on('change_state', (state) => {
+  console.log(`WhatsApp (${WA_ACCOUNT_LABEL}) stato:`, state);
+});
+
 client.on('ready', () => {
   ready = true;
   lastQr = null;
   console.log(`WhatsApp (${WA_ACCOUNT_LABEL}) collegato e in ascolto (sola lettura).`);
+});
+
+client.on('loading_screen', (percent, message) => {
+  console.log(`WhatsApp (${WA_ACCOUNT_LABEL}) caricamento ${percent}%: ${message}`);
 });
 
 client.on('disconnected', (reason) => {
