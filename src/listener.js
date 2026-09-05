@@ -8,6 +8,7 @@ const express = require('express');
 const qrcode = require('qrcode');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const { createClient } = require('@supabase/supabase-js');
+const WebSocket = require('ws');
 
 const {
   SUPABASE_URL,
@@ -26,7 +27,9 @@ if (!QR_SECRET) {
   process.exit(1);
 }
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
+const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY, {
+  realtime: { transport: WebSocket },
+});
 
 let lastQr = null;
 let ready = false;
