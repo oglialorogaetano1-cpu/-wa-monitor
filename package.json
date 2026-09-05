@@ -21,7 +21,6 @@
     "nodemailer": "^6.9.16",
     "qrcode": "^1.5.4",
     "telegraf": "^4.16.3",
-    "wa-automate": "^1.26.0",
     "whatsapp-web.js": "^1.26.0",
     "ws": "^8.18.0"
   }
